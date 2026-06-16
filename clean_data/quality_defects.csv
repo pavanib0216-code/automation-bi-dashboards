@@ -1,0 +1,268 @@
+DEFECT_ID,DATE,SHIFT,LINE_ID,MACHINE_ID,PRODUCT_TYPE,DEFECT_TYPE,SEVERITY,UNITS_AFFECTED,INSPECTOR_ID,DISPOSITION,REWORK_HOURS,COST_USD,NOTES
+DEF00001,2025-01-01,Night,Line 1,M004,AI_Server_v1,Wrong_Orientation,Major,16,QC02,Rework,4.49,659.13,
+DEF00002,2025-01-01,Day,Test Bay,M004,HPC_Rack_Unit,Firmware_Error,Critical,6,QC02,On Hold,1.57,595.92,Supplier issue
+DEF00003,2025-01-01,Night,Test Bay,M002,PCB_Assembly,Wrong_Orientation,Minor,4,QC05,Rework,2.38,314.8,
+DEF00004,2025-01-01,Night,Test Bay,M004,HPC_Rack_Unit,Solder_Bridge,Minor,15,QC01,Scrap,4.75,36.93,
+DEF00005,2025-01-02,Night,Line 1,M005,PCB_Assembly,Missing_Component,Major,15,QC03,Scrap,3.02,686.11,Supplier issue
+DEF00006,2025-01-02,Night,Test Bay,M002,GPU_Module,Solder_Bridge,Major,5,QC03,On Hold,2.88,574.99,
+DEF00007,2025-01-02,Night,Test Bay,M003,AI_Server_v1,Cosmetic,Minor,16,QC04,Rework,1.65,569.72,Supplier issue
+DEF00008,2025-01-02,Night,Line 2,M007,PCB_Assembly,Thermal_Failure,Critical,12,QC05,Scrap,0.77,33.32,
+DEF00009,2025-01-02,Day,Line 1,M002,AI_Server_v1,Physical_Damage,Minor,16,QC03,Rework,6.52,588.79,
+DEF00010,2025-01-04,Night,Test Bay,M006,AI_Server_v1,Solder_Bridge,Critical,9,QC01,Scrap,0.81,613.05,Supplier issue
+DEF00011,2025-01-05,Day,Line 2,M007,PCB_Assembly,Solder_Bridge,Minor,15,QC04,Rework,4.7,167.79,Repeat defect
+DEF00012,2025-01-05,Night,Line 3,M004,HPC_Rack_Unit,Missing_Component,Minor,6,QC04,Scrap,1.74,469.87,
+DEF00013,2025-01-05,Day,Line 2,M006,AI_Server_v1,Cosmetic,Major,1,QC03,Rework,6.95,279.16,
+DEF00014,2025-01-05,Night,Line 2,M006,HPC_Rack_Unit,Thermal_Failure,Major,17,QC03,Accept,4.58,118.92,
+DEF00015,2025-01-05,Night,Test Bay,M004,AI_Server_v1,Thermal_Failure,Critical,5,QC05,Accept,,403.98,
+DEF00016,2025-01-06,Night,Line 1,M005,HPC_Rack_Unit,Cosmetic,Minor,9,QC04,On Hold,7.01,134.71,Repeat defect
+DEF00017,2025-01-06,Day,Line 3,M001,Server_Blade,Thermal_Failure,Critical,18,QC01,Scrap,7.36,217.81,
+DEF00018,2025-01-06,Night,Test Bay,M001,PCB_Assembly,Missing_Component,Minor,2,QC02,Rework,5.94,740.1,
+DEF00019,2025-01-06,Day,Test Bay,M001,AI_Server_v1,Cosmetic,Critical,20,QC01,Accept,7.61,482.54,Supplier issue
+DEF00020,2025-01-08,Day,Line 3,M004,AI_Server_v1,Solder_Bridge,Critical,16,QC05,Rework,3.59,249.7,
+DEF00021,2025-01-08,Day,Line 1,M001,HPC_Rack_Unit,Thermal_Failure,Critical,13,QC01,Scrap,3.25,308.01,
+DEF00022,2025-01-08,Night,Line 2,M004,AI_Server_v1,Physical_Damage,Critical,20,QC03,Accept,,354.85,
+DEF00023,2025-01-08,Day,Line 1,M002,GPU_Module,Solder_Bridge,Major,14,QC05,Scrap,,643.4,
+DEF00024,2025-01-09,Day,Line 1,M007,AI_Server_v1,Missing_Component,Major,6,QC03,Scrap,4.92,713.44,Repeat defect
+DEF00025,2025-01-10,Night,Test Bay,M005,AI_Server_v1,Firmware_Error,Critical,3,QC03,Scrap,,567.15,Repeat defect
+DEF00026,2025-01-11,Night,Line 3,M002,PCB_Assembly,Cosmetic,Critical,10,QC02,Scrap,2.72,437.72,
+DEF00027,2025-01-11,Night,Test Bay,M001,GPU_Module,Physical_Damage,Minor,3,QC02,Rework,4.29,250.9,Supplier issue
+DEF00028,2025-01-11,Day,Line 3,M002,HPC_Rack_Unit,Solder_Bridge,Major,15,QC04,Scrap,,670.7,Repeat defect
+DEF00029,2025-01-11,Night,Line 3,M003,AI_Server_v1,Solder_Bridge,Minor,20,QC04,Rework,,312.24,First occurrence
+DEF00030,2025-01-11,Day,Line 2,M001,Server_Blade,Missing_Component,Minor,14,QC05,Scrap,0.49,612.77,
+DEF00031,2025-01-11,Night,Line 3,M005,GPU_Module,Missing_Component,Critical,11,QC05,Rework,6.32,743.57,
+DEF00032,2025-01-12,Night,Line 3,M001,GPU_Module,Physical_Damage,Major,19,QC05,Scrap,,768.64,First occurrence
+DEF00033,2025-01-12,Day,Line 2,M006,AI_Server_v1,Wrong_Orientation,Minor,9,QC01,Rework,2.54,461.16,
+DEF00034,2025-01-12,Night,Line 3,M005,PCB_Assembly,Firmware_Error,Minor,20,QC01,Scrap,5.37,670.44,
+DEF00035,2025-01-12,Night,Line 1,M004,Server_Blade,Solder_Bridge,Major,2,QC03,Rework,4.56,332.8,Supplier issue
+DEF00036,2025-01-12,Night,Line 3,M001,AI_Server_v1,Physical_Damage,Major,9,QC03,Accept,1.24,507.97,
+DEF00037,2025-01-12,Day,Line 2,M007,AI_Server_v1,Firmware_Error,Critical,6,QC05,Rework,0.58,576.71,
+DEF00038,2025-01-13,Night,Line 1,M003,PCB_Assembly,Thermal_Failure,Minor,2,QC05,Rework,0.85,360.61,Supplier issue
+DEF00039,2025-01-13,Day,Line 2,M001,PCB_Assembly,Thermal_Failure,Minor,14,QC01,On Hold,2.44,29.51,Supplier issue
+DEF00040,2025-01-13,Night,Line 3,M007,Server_Blade,Firmware_Error,Minor,16,QC03,Scrap,,300.96,Repeat defect
+DEF00041,2025-01-13,Day,Line 1,M002,GPU_Module,Missing_Component,Minor,17,QC05,Scrap,7.53,309.28,Supplier issue
+DEF00042,2025-01-13,Day,Test Bay,M001,AI_Server_v1,Solder_Bridge,Major,19,QC05,Scrap,5.94,435.78,
+DEF00043,2025-01-14,Day,Test Bay,M005,GPU_Module,Thermal_Failure,Major,11,QC03,Rework,2.52,202.78,
+DEF00044,2025-01-14,Night,Line 2,M007,Server_Blade,Wrong_Orientation,Minor,4,QC02,Rework,7.07,295.89,Repeat defect
+DEF00045,2025-01-14,Day,Line 3,M005,Server_Blade,Thermal_Failure,Major,15,QC04,Rework,6.66,108.97,Supplier issue
+DEF00046,2025-01-14,Night,Line 2,M002,GPU_Module,Wrong_Orientation,Minor,11,QC03,Scrap,,342.61,
+DEF00047,2025-01-14,Night,Line 2,M005,HPC_Rack_Unit,Physical_Damage,Critical,6,QC01,Rework,,448.12,First occurrence
+DEF00048,2025-01-14,Day,Line 2,M006,AI_Server_v1,Cosmetic,Major,1,QC02,Scrap,,694.84,First occurrence
+DEF00049,2025-01-15,Day,Test Bay,M003,GPU_Module,Missing_Component,Minor,10,QC01,Accept,7.21,477.27,Supplier issue
+DEF00050,2025-01-15,Day,Line 1,M001,PCB_Assembly,Physical_Damage,Major,15,QC04,Accept,5.68,589.42,
+DEF00051,2025-01-15,Day,Line 2,M007,AI_Server_v1,Thermal_Failure,Critical,12,QC04,Rework,1.62,580.8,Repeat defect
+DEF00052,2025-01-16,Day,Line 3,M001,Server_Blade,Wrong_Orientation,Critical,19,QC05,Scrap,6.79,347.08,Repeat defect
+DEF00053,2025-01-16,Night,Line 2,M004,HPC_Rack_Unit,Solder_Bridge,Minor,7,QC04,Scrap,,704.87,Repeat defect
+DEF00054,2025-01-16,Night,Line 3,M001,HPC_Rack_Unit,Solder_Bridge,Minor,9,QC04,Rework,,143.76,Repeat defect
+DEF00055,2025-01-16,Day,Line 2,M005,PCB_Assembly,Missing_Component,Critical,7,QC05,Scrap,0.46,723.01,Supplier issue
+DEF00056,2025-01-16,Day,Line 1,M005,Server_Blade,Cosmetic,Critical,12,QC02,Accept,4.68,588.35,Supplier issue
+DEF00057,2025-01-16,Night,Line 3,M002,AI_Server_v1,Firmware_Error,Minor,4,QC04,Rework,0.92,118.09,Repeat defect
+DEF00058,2025-01-17,Day,Line 3,M006,AI_Server_v1,Firmware_Error,Major,3,QC03,Rework,2.39,508.19,Supplier issue
+DEF00059,2025-01-17,Day,Line 3,M006,AI_Server_v1,Physical_Damage,Critical,17,QC03,Rework,5.37,703.28,
+DEF00060,2025-01-17,Day,Line 2,M006,HPC_Rack_Unit,Thermal_Failure,Major,8,QC02,Accept,4.0,157.81,First occurrence
+DEF00061,2025-01-17,Day,Line 2,M003,AI_Server_v1,Thermal_Failure,Minor,7,QC01,Rework,,450.61,
+DEF00062,2025-01-17,Day,Line 1,M006,Server_Blade,Firmware_Error,Minor,20,QC04,On Hold,5.19,392.54,
+DEF00063,2025-01-18,Day,Line 3,M003,Server_Blade,Physical_Damage,Minor,13,QC05,Accept,2.54,182.96,Repeat defect
+DEF00064,2025-01-19,Night,Line 2,M004,Server_Blade,Solder_Bridge,Major,15,QC03,On Hold,,560.61,
+DEF00065,2025-01-19,Night,Test Bay,M002,GPU_Module,Physical_Damage,Minor,8,QC01,Accept,,179.93,First occurrence
+DEF00066,2025-01-19,Night,Line 3,M001,PCB_Assembly,Physical_Damage,Major,15,QC04,Rework,,53.16,First occurrence
+DEF00067,2025-01-20,Night,Line 1,M002,PCB_Assembly,Physical_Damage,Major,8,QC05,Rework,6.29,97.15,Supplier issue
+DEF00068,2025-01-20,Night,Line 2,M005,GPU_Module,Thermal_Failure,Critical,1,QC04,Scrap,2.83,288.63,Supplier issue
+DEF00069,2025-01-20,Day,Line 2,M001,PCB_Assembly,Thermal_Failure,Major,6,QC05,Rework,2.03,643.02,Repeat defect
+DEF00070,2025-01-20,Night,Line 2,M003,GPU_Module,Firmware_Error,Major,1,QC01,Scrap,4.33,406.18,First occurrence
+DEF00071,2025-01-20,Day,Line 3,M001,PCB_Assembly,Solder_Bridge,Major,8,QC01,Accept,6.55,308.51,First occurrence
+DEF00072,2025-01-21,Night,Line 1,M007,AI_Server_v1,Solder_Bridge,Critical,14,QC01,Scrap,4.45,735.99,
+DEF00073,2025-01-22,Night,Line 2,M005,GPU_Module,Cosmetic,Minor,11,QC04,Scrap,2.59,372.54,
+DEF00074,2025-01-22,Night,Test Bay,M003,PCB_Assembly,Physical_Damage,Critical,8,QC04,Scrap,,234.69,
+DEF00075,2025-01-22,Day,Test Bay,M005,AI_Server_v1,Physical_Damage,Minor,13,QC03,Scrap,3.76,466.52,
+DEF00076,2025-01-22,Day,Test Bay,M004,PCB_Assembly,Physical_Damage,Critical,4,QC03,Accept,,507.63,
+DEF00077,2025-01-22,Day,Line 2,M001,Server_Blade,Thermal_Failure,Major,3,QC02,Rework,3.92,581.2,Supplier issue
+DEF00078,2025-01-23,Day,Test Bay,M002,PCB_Assembly,Physical_Damage,Minor,11,QC02,Scrap,4.63,331.16,
+DEF00079,2025-01-23,Day,Test Bay,M003,GPU_Module,Physical_Damage,Minor,8,QC03,Rework,4.24,688.34,
+DEF00080,2025-01-23,Day,Test Bay,M001,AI_Server_v1,Physical_Damage,Major,1,QC02,Scrap,1.54,355.7,
+DEF00081,2025-01-23,Night,Test Bay,M001,HPC_Rack_Unit,Firmware_Error,Critical,16,QC02,On Hold,3.49,17.31,
+DEF00082,2025-01-23,Night,Line 3,M004,GPU_Module,Wrong_Orientation,Critical,12,QC05,On Hold,,239.26,
+DEF00083,2025-01-23,Night,Line 3,M002,Server_Blade,Physical_Damage,Major,11,QC02,Rework,6.68,17.76,First occurrence
+DEF00084,2025-01-24,Night,Line 1,M002,AI_Server_v1,Wrong_Orientation,Minor,7,QC02,On Hold,,372.29,
+DEF00085,2025-01-26,Day,Line 1,M004,PCB_Assembly,Firmware_Error,Critical,8,QC03,On Hold,,162.19,Repeat defect
+DEF00086,2025-01-26,Night,Line 3,M007,PCB_Assembly,Thermal_Failure,Major,9,QC05,Scrap,1.82,478.18,
+DEF00087,2025-01-26,Day,Line 3,M006,HPC_Rack_Unit,Wrong_Orientation,Critical,4,QC02,Scrap,6.19,270.83,Supplier issue
+DEF00088,2025-01-26,Night,Test Bay,M005,HPC_Rack_Unit,Missing_Component,Critical,8,QC02,Scrap,5.02,123.23,First occurrence
+DEF00089,2025-01-27,Night,Line 1,M001,AI_Server_v1,Missing_Component,Critical,15,QC04,On Hold,2.59,610.41,
+DEF00090,2025-01-27,Night,Test Bay,M005,Server_Blade,Firmware_Error,Major,12,QC03,Scrap,0.86,488.25,
+DEF00091,2025-01-27,Night,Line 2,M002,Server_Blade,Thermal_Failure,Major,16,QC03,On Hold,,720.81,
+DEF00092,2025-01-27,Day,Line 1,M003,PCB_Assembly,Cosmetic,Major,12,QC04,Rework,7.04,737.28,
+DEF00093,2025-01-27,Night,Line 2,M004,AI_Server_v1,Missing_Component,Major,12,QC05,Rework,,255.21,
+DEF00094,2025-01-27,Night,Line 1,M003,GPU_Module,Wrong_Orientation,Critical,9,QC04,Rework,,559.44,Repeat defect
+DEF00095,2025-01-28,Day,Line 1,M006,Server_Blade,Thermal_Failure,Minor,15,QC04,Rework,7.03,602.96,
+DEF00096,2025-01-28,Night,Line 1,M001,GPU_Module,Firmware_Error,Major,6,QC02,Scrap,6.8,54.28,
+DEF00097,2025-01-29,Night,Line 1,M001,GPU_Module,Wrong_Orientation,Major,20,QC01,Accept,6.82,260.02,
+DEF00098,2025-01-29,Night,Line 1,M002,Server_Blade,Physical_Damage,Minor,2,QC01,Rework,4.14,585.88,
+DEF00099,2025-01-29,Night,Line 1,M002,PCB_Assembly,Thermal_Failure,Major,17,QC04,Rework,6.78,753.46,Repeat defect
+DEF00100,2025-01-29,Night,Line 1,M003,PCB_Assembly,Physical_Damage,Critical,3,QC05,Rework,,735.23,
+DEF00101,2025-01-29,Day,Line 2,M006,PCB_Assembly,Thermal_Failure,Minor,1,QC02,Scrap,,305.88,
+DEF00102,2025-01-30,Night,Line 2,M002,HPC_Rack_Unit,Wrong_Orientation,Critical,13,QC03,Rework,,456.38,First occurrence
+DEF00103,2025-01-30,Day,Line 3,M002,HPC_Rack_Unit,Missing_Component,Minor,9,QC04,Accept,,290.57,Repeat defect
+DEF00104,2025-01-30,Night,Line 2,M003,AI_Server_v1,Cosmetic,Critical,13,QC02,Scrap,7.95,352.74,
+DEF00105,2025-01-30,Night,Line 2,M007,PCB_Assembly,Firmware_Error,Critical,18,QC03,Scrap,1.88,182.42,Repeat defect
+DEF00106,2025-01-30,Day,Line 2,M001,Server_Blade,Missing_Component,Major,19,QC03,Accept,5.35,722.01,Repeat defect
+DEF00107,2025-01-31,Night,Line 1,M001,HPC_Rack_Unit,Physical_Damage,Major,11,QC03,On Hold,1.7,292.82,
+DEF00108,2025-01-31,Day,Line 1,M004,Server_Blade,Cosmetic,Critical,15,QC05,Scrap,5.91,384.12,
+DEF00109,2025-01-31,Night,Line 3,M003,Server_Blade,Firmware_Error,Major,10,QC01,Rework,7.23,410.5,First occurrence
+DEF00110,2025-01-31,Night,Test Bay,M004,GPU_Module,Solder_Bridge,Major,17,QC02,Accept,7.73,754.85,
+DEF00111,2025-01-31,Day,Line 2,M005,PCB_Assembly,Cosmetic,Critical,3,QC03,Rework,3.81,140.62,
+DEF00112,2025-02-01,Day,Line 2,M002,PCB_Assembly,Wrong_Orientation,Critical,6,QC02,Rework,5.86,131.77,Supplier issue
+DEF00113,2025-02-01,Night,Line 1,M007,Server_Blade,Missing_Component,Minor,4,QC04,Scrap,5.67,731.14,
+DEF00114,2025-02-01,Night,Line 2,M004,AI_Server_v1,Physical_Damage,Major,11,QC02,Rework,7.21,657.63,
+DEF00115,2025-02-01,Night,Test Bay,M007,GPU_Module,Solder_Bridge,Minor,16,QC05,Scrap,,490.73,
+DEF00116,2025-02-01,Night,Line 3,M003,GPU_Module,Cosmetic,Critical,20,QC05,Rework,5.25,119.08,
+DEF00117,2025-02-03,Night,Line 1,M003,PCB_Assembly,Physical_Damage,Minor,6,QC04,Rework,,315.58,First occurrence
+DEF00118,2025-02-05,Day,Line 2,M004,Server_Blade,Firmware_Error,Critical,4,QC04,Scrap,5.93,528.14,First occurrence
+DEF00119,2025-02-05,Day,Line 2,M007,PCB_Assembly,Missing_Component,Critical,17,QC04,On Hold,4.02,768.34,First occurrence
+DEF00120,2025-02-06,Day,Line 3,M007,Server_Blade,Wrong_Orientation,Minor,4,QC05,Rework,6.3,572.5,Supplier issue
+DEF00121,2025-02-06,Day,Line 2,M003,Server_Blade,Thermal_Failure,Major,3,QC02,Scrap,7.49,476.22,
+DEF00122,2025-02-06,Night,Test Bay,M005,AI_Server_v1,Physical_Damage,Minor,2,QC01,Rework,0.64,483.47,Repeat defect
+DEF00123,2025-02-07,Night,Line 3,M004,AI_Server_v1,Thermal_Failure,Minor,6,QC03,Accept,3.71,245.17,
+DEF00124,2025-02-07,Day,Line 3,M005,AI_Server_v1,Thermal_Failure,Minor,13,QC02,Rework,,84.71,
+DEF00125,2025-02-08,Night,Test Bay,M006,PCB_Assembly,Wrong_Orientation,Major,20,QC02,On Hold,4.66,42.11,Repeat defect
+DEF00126,2025-02-09,Day,Line 1,M001,Server_Blade,Thermal_Failure,Minor,3,QC03,On Hold,3.52,27.68,
+DEF00127,2025-02-09,Day,Test Bay,M003,AI_Server_v1,Cosmetic,Major,19,QC03,Accept,4.43,637.04,
+DEF00128,2025-02-10,Night,Test Bay,M001,HPC_Rack_Unit,Cosmetic,Major,9,QC02,Accept,0.6,324.95,
+DEF00129,2025-02-10,Night,Line 3,M006,AI_Server_v1,Physical_Damage,Major,1,QC04,On Hold,,220.97,Supplier issue
+DEF00130,2025-02-10,Night,Line 1,M007,HPC_Rack_Unit,Missing_Component,Critical,11,QC02,Scrap,5.89,491.36,First occurrence
+DEF00131,2025-02-10,Night,Line 3,M005,GPU_Module,Physical_Damage,Major,18,QC01,Accept,2.93,361.06,First occurrence
+DEF00132,2025-02-10,Night,Line 2,M007,GPU_Module,Firmware_Error,Major,13,QC03,Rework,,683.31,
+DEF00133,2025-02-10,Night,Line 3,M006,AI_Server_v1,Missing_Component,Minor,17,QC03,Accept,,259.12,
+DEF00134,2025-02-11,Day,Line 2,M001,GPU_Module,Wrong_Orientation,Critical,14,QC04,Scrap,2.45,597.8,
+DEF00135,2025-02-11,Day,Test Bay,M004,GPU_Module,Cosmetic,Critical,4,QC04,Rework,,97.4,Repeat defect
+DEF00136,2025-02-11,Day,Test Bay,M002,GPU_Module,Physical_Damage,Minor,7,QC04,Scrap,,618.69,
+DEF00137,2025-02-13,Night,Test Bay,M006,HPC_Rack_Unit,Cosmetic,Major,16,QC04,Accept,3.73,739.89,
+DEF00138,2025-02-13,Night,Line 1,M004,GPU_Module,Cosmetic,Minor,15,QC02,On Hold,3.22,525.95,First occurrence
+DEF00139,2025-02-13,Day,Line 1,M004,GPU_Module,Missing_Component,Major,20,QC05,Scrap,4.9,588.4,
+DEF00140,2025-02-13,Day,Line 2,M003,GPU_Module,Firmware_Error,Major,3,QC03,Scrap,7.1,526.75,Supplier issue
+DEF00141,2025-02-13,Day,Line 2,M005,Server_Blade,Wrong_Orientation,Minor,8,QC02,Rework,7.39,264.95,Repeat defect
+DEF00142,2025-02-16,Night,Test Bay,M005,HPC_Rack_Unit,Firmware_Error,Critical,15,QC02,Rework,4.13,97.81,Supplier issue
+DEF00143,2025-02-17,Day,Line 2,M003,Server_Blade,Firmware_Error,Critical,1,QC01,On Hold,6.97,796.47,First occurrence
+DEF00144,2025-02-17,Night,Line 3,M001,GPU_Module,Solder_Bridge,Minor,20,QC05,On Hold,,389.84,
+DEF00145,2025-02-17,Night,Test Bay,M001,AI_Server_v1,Wrong_Orientation,Major,17,QC04,Rework,1.05,679.19,Supplier issue
+DEF00146,2025-02-17,Day,Line 2,M007,PCB_Assembly,Physical_Damage,Minor,11,QC02,Rework,1.88,86.73,
+DEF00147,2025-02-17,Day,Test Bay,M006,Server_Blade,Cosmetic,Major,9,QC03,Accept,2.81,365.8,Repeat defect
+DEF00148,2025-02-17,Night,Line 1,M005,HPC_Rack_Unit,Missing_Component,Critical,10,QC01,Rework,4.62,573.9,Repeat defect
+DEF00149,2025-02-18,Night,Test Bay,M002,Server_Blade,Firmware_Error,Minor,5,QC02,Rework,6.91,213.27,
+DEF00150,2025-02-18,Day,Line 3,M001,HPC_Rack_Unit,Thermal_Failure,Critical,9,QC03,On Hold,6.99,418.29,First occurrence
+DEF00151,2025-02-18,Day,Line 3,M005,HPC_Rack_Unit,Thermal_Failure,Critical,11,QC05,Accept,7.43,522.22,Supplier issue
+DEF00152,2025-02-18,Day,Test Bay,M004,Server_Blade,Solder_Bridge,Minor,3,QC03,Rework,1.99,229.87,
+DEF00153,2025-02-18,Day,Line 2,M007,PCB_Assembly,Physical_Damage,Major,19,QC01,On Hold,6.32,424.05,
+DEF00154,2025-02-19,Night,Line 1,M002,Server_Blade,Firmware_Error,Critical,11,QC05,Scrap,,769.71,
+DEF00155,2025-02-19,Day,Line 1,M005,Server_Blade,Thermal_Failure,Critical,8,QC02,Accept,1.67,749.7,
+DEF00156,2025-02-19,Night,Line 2,M002,AI_Server_v1,Thermal_Failure,Minor,18,QC03,Scrap,5.93,734.8,
+DEF00157,2025-02-19,Night,Line 1,M005,HPC_Rack_Unit,Missing_Component,Major,19,QC05,Rework,4.41,627.32,Repeat defect
+DEF00158,2025-02-19,Day,Line 2,M007,Server_Blade,Solder_Bridge,Major,3,QC04,Rework,,475.61,Supplier issue
+DEF00159,2025-02-20,Day,Test Bay,M003,AI_Server_v1,Firmware_Error,Major,7,QC05,On Hold,3.79,10.39,First occurrence
+DEF00160,2025-02-20,Night,Test Bay,M005,HPC_Rack_Unit,Wrong_Orientation,Critical,16,QC05,Accept,2.57,695.14,
+DEF00161,2025-02-20,Night,Line 3,M003,Server_Blade,Solder_Bridge,Major,16,QC01,Accept,4.2,401.67,
+DEF00162,2025-02-22,Night,Line 1,M004,Server_Blade,Wrong_Orientation,Minor,18,QC02,Rework,6.16,178.44,Supplier issue
+DEF00163,2025-02-22,Night,Test Bay,M003,AI_Server_v1,Firmware_Error,Minor,20,QC02,Scrap,2.76,161.6,First occurrence
+DEF00164,2025-02-22,Day,Line 2,M007,GPU_Module,Firmware_Error,Major,11,QC05,Rework,6.36,626.01,Repeat defect
+DEF00165,2025-02-22,Night,Test Bay,M002,PCB_Assembly,Wrong_Orientation,Major,10,QC03,On Hold,6.03,365.27,First occurrence
+DEF00166,2025-02-22,Night,Test Bay,M005,AI_Server_v1,Cosmetic,Major,2,QC04,Accept,1.33,370.94,Repeat defect
+DEF00167,2025-02-22,Day,Line 2,M001,PCB_Assembly,Wrong_Orientation,Minor,1,QC03,Rework,2.77,452.38,
+DEF00168,2025-02-23,Night,Line 3,M002,AI_Server_v1,Solder_Bridge,Major,6,QC03,On Hold,5.84,381.2,
+DEF00169,2025-02-23,Night,Test Bay,M007,HPC_Rack_Unit,Wrong_Orientation,Critical,19,QC04,Scrap,,515.31,Repeat defect
+DEF00170,2025-02-23,Night,Test Bay,M005,PCB_Assembly,Solder_Bridge,Major,5,QC01,Accept,5.93,661.21,
+DEF00171,2025-02-23,Night,Line 2,M005,GPU_Module,Solder_Bridge,Major,8,QC03,Scrap,5.37,449.77,Repeat defect
+DEF00172,2025-02-23,Day,Line 2,M006,AI_Server_v1,Cosmetic,Minor,11,QC03,Rework,1.91,263.8,
+DEF00173,2025-02-23,Night,Line 3,M004,HPC_Rack_Unit,Firmware_Error,Minor,9,QC03,Scrap,0.43,104.16,First occurrence
+DEF00174,2025-02-24,Night,Line 1,M004,GPU_Module,Solder_Bridge,Critical,12,QC01,Scrap,0.5,408.33,Repeat defect
+DEF00175,2025-02-24,Night,Line 3,M007,GPU_Module,Wrong_Orientation,Minor,3,QC01,Scrap,,451.05,
+DEF00176,2025-02-24,Day,Line 1,M005,GPU_Module,Physical_Damage,Critical,7,QC01,On Hold,2.4,366.52,
+DEF00177,2025-02-25,Night,Line 1,M006,HPC_Rack_Unit,Firmware_Error,Critical,11,QC04,Scrap,5.98,759.32,
+DEF00178,2025-02-26,Night,Line 1,M005,GPU_Module,Cosmetic,Major,1,QC01,Rework,1.42,685.9,Supplier issue
+DEF00179,2025-02-26,Night,Test Bay,M006,HPC_Rack_Unit,Cosmetic,Critical,12,QC05,Rework,,127.14,Repeat defect
+DEF00180,2025-02-26,Day,Line 1,M002,GPU_Module,Thermal_Failure,Critical,5,QC05,Accept,2.79,259.12,
+DEF00181,2025-02-27,Day,Line 3,M002,HPC_Rack_Unit,Physical_Damage,Minor,8,QC02,Accept,,703.33,First occurrence
+DEF00182,2025-02-27,Night,Line 1,M001,Server_Blade,Cosmetic,Minor,7,QC04,Scrap,3.34,172.45,First occurrence
+DEF00183,2025-02-27,Day,Line 1,M005,HPC_Rack_Unit,Thermal_Failure,Critical,17,QC01,Rework,1.18,396.4,Supplier issue
+DEF00184,2025-02-27,Night,Test Bay,M003,HPC_Rack_Unit,Missing_Component,Critical,17,QC03,Rework,,98.47,First occurrence
+DEF00185,2025-02-27,Day,Test Bay,M001,Server_Blade,Physical_Damage,Critical,12,QC03,Accept,3.61,679.77,Repeat defect
+DEF00186,2025-02-28,Day,Test Bay,M006,Server_Blade,Solder_Bridge,Minor,11,QC01,Rework,1.62,17.33,Supplier issue
+DEF00187,2025-03-01,Night,Line 1,M002,AI_Server_v1,Thermal_Failure,Major,10,QC03,Scrap,1.47,146.21,Supplier issue
+DEF00188,2025-03-02,Day,Line 3,M006,AI_Server_v1,Cosmetic,Major,1,QC04,Rework,5.1,728.09,Repeat defect
+DEF00189,2025-03-03,Day,Line 1,M003,PCB_Assembly,Solder_Bridge,Major,2,QC02,Rework,,307.86,Supplier issue
+DEF00190,2025-03-03,Day,Line 2,M006,AI_Server_v1,Solder_Bridge,Minor,8,QC01,Rework,1.12,385.79,First occurrence
+DEF00191,2025-03-03,Night,Line 2,M007,GPU_Module,Cosmetic,Minor,1,QC03,Rework,7.25,111.28,
+DEF00192,2025-03-03,Night,Line 1,M005,Server_Blade,Physical_Damage,Minor,19,QC02,Rework,,112.55,
+DEF00193,2025-03-04,Day,Line 1,M006,Server_Blade,Wrong_Orientation,Critical,4,QC02,Rework,,586.72,Repeat defect
+DEF00194,2025-03-05,Night,Line 3,M006,HPC_Rack_Unit,Wrong_Orientation,Major,12,QC02,Scrap,6.84,600.87,First occurrence
+DEF00195,2025-03-05,Day,Line 2,M006,HPC_Rack_Unit,Solder_Bridge,Major,2,QC02,Rework,0.34,389.81,Repeat defect
+DEF00196,2025-03-06,Night,Test Bay,M006,HPC_Rack_Unit,Physical_Damage,Critical,9,QC05,Rework,,230.65,Supplier issue
+DEF00197,2025-03-07,Day,Line 3,M003,PCB_Assembly,Cosmetic,Major,18,QC04,On Hold,,686.41,Supplier issue
+DEF00198,2025-03-07,Day,Line 3,M003,Server_Blade,Firmware_Error,Critical,18,QC02,Scrap,,371.37,
+DEF00199,2025-03-09,Night,Line 2,M006,PCB_Assembly,Wrong_Orientation,Major,14,QC05,Scrap,7.78,154.26,Supplier issue
+DEF00200,2025-03-09,Day,Line 2,M002,AI_Server_v1,Missing_Component,Minor,12,QC05,Scrap,4.61,429.14,
+DEF00201,2025-03-09,Night,Line 2,M007,GPU_Module,Missing_Component,Minor,6,QC01,On Hold,,511.11,Supplier issue
+DEF00202,2025-03-09,Day,Test Bay,M002,HPC_Rack_Unit,Wrong_Orientation,Critical,13,QC03,Rework,7.78,716.06,First occurrence
+DEF00203,2025-03-10,Night,Line 1,M002,AI_Server_v1,Wrong_Orientation,Minor,18,QC03,Rework,5.0,767.83,
+DEF00204,2025-03-10,Night,Line 2,M007,HPC_Rack_Unit,Physical_Damage,Major,8,QC04,Rework,3.28,162.76,Repeat defect
+DEF00205,2025-03-12,Day,Test Bay,M003,AI_Server_v1,Firmware_Error,Minor,19,QC02,Rework,5.46,610.86,
+DEF00206,2025-03-13,Night,Line 1,M001,GPU_Module,Physical_Damage,Major,15,QC03,Scrap,4.98,131.4,
+DEF00207,2025-03-13,Night,Line 1,M003,Server_Blade,Cosmetic,Minor,4,QC04,Rework,7.04,556.24,First occurrence
+DEF00208,2025-03-13,Night,Line 2,M007,GPU_Module,Solder_Bridge,Critical,20,QC05,Accept,,681.47,First occurrence
+DEF00209,2025-03-13,Night,Test Bay,M007,AI_Server_v1,Firmware_Error,Critical,9,QC03,Accept,2.8,536.91,Repeat defect
+DEF00210,2025-03-13,Day,Line 1,M003,AI_Server_v1,Firmware_Error,Major,8,QC05,Rework,,352.68,Repeat defect
+DEF00211,2025-03-15,Night,Test Bay,M007,GPU_Module,Thermal_Failure,Minor,13,QC01,Scrap,,672.18,
+DEF00212,2025-03-15,Day,Line 1,M001,HPC_Rack_Unit,Wrong_Orientation,Critical,20,QC04,Rework,0.56,521.2,First occurrence
+DEF00213,2025-03-15,Night,Line 1,M007,Server_Blade,Cosmetic,Minor,14,QC01,Rework,0.44,757.3,
+DEF00214,2025-03-15,Night,Line 1,M003,Server_Blade,Cosmetic,Minor,12,QC03,Accept,2.18,362.35,
+DEF00215,2025-03-15,Night,Line 3,M003,HPC_Rack_Unit,Missing_Component,Critical,18,QC03,On Hold,2.95,654.22,First occurrence
+DEF00216,2025-03-15,Day,Line 3,M007,PCB_Assembly,Thermal_Failure,Critical,8,QC03,Accept,,580.33,
+DEF00217,2025-03-16,Night,Line 2,M003,Server_Blade,Missing_Component,Minor,16,QC03,Accept,7.19,606.27,
+DEF00218,2025-03-16,Day,Line 1,M003,HPC_Rack_Unit,Thermal_Failure,Minor,17,QC05,Accept,4.42,324.4,
+DEF00219,2025-03-16,Day,Line 1,M001,AI_Server_v1,Firmware_Error,Critical,13,QC03,Rework,4.38,323.44,First occurrence
+DEF00220,2025-03-18,Night,Line 1,M006,PCB_Assembly,Missing_Component,Major,2,QC02,Scrap,,794.22,
+DEF00221,2025-03-18,Day,Line 2,M004,HPC_Rack_Unit,Missing_Component,Major,7,QC02,Scrap,,772.03,Supplier issue
+DEF00222,2025-03-18,Night,Test Bay,M004,GPU_Module,Thermal_Failure,Critical,7,QC04,Rework,4.75,505.53,First occurrence
+DEF00223,2025-03-18,Night,Line 3,M006,PCB_Assembly,Physical_Damage,Minor,12,QC02,Accept,0.85,557.63,Repeat defect
+DEF00224,2025-03-18,Day,Line 2,M007,AI_Server_v1,Cosmetic,Critical,16,QC05,Accept,,662.77,
+DEF00225,2025-03-18,Night,Line 2,M006,Server_Blade,Wrong_Orientation,Critical,2,QC04,Scrap,4.83,61.08,
+DEF00226,2025-03-20,Day,Line 3,M004,Server_Blade,Cosmetic,Minor,5,QC01,On Hold,7.65,228.11,Repeat defect
+DEF00227,2025-03-20,Day,Test Bay,M006,Server_Blade,Firmware_Error,Major,13,QC02,On Hold,4.42,542.99,Repeat defect
+DEF00228,2025-03-20,Night,Line 2,M002,GPU_Module,Firmware_Error,Critical,11,QC01,Scrap,,606.03,Supplier issue
+DEF00229,2025-03-20,Day,Line 1,M001,GPU_Module,Physical_Damage,Minor,6,QC02,Rework,6.25,791.78,
+DEF00230,2025-03-22,Day,Line 3,M004,AI_Server_v1,Solder_Bridge,Major,19,QC04,Rework,3.93,679.34,
+DEF00231,2025-03-22,Night,Line 3,M001,HPC_Rack_Unit,Firmware_Error,Major,9,QC04,Scrap,,327.13,
+DEF00232,2025-03-22,Day,Line 3,M003,Server_Blade,Cosmetic,Critical,17,QC03,Scrap,0.72,450.13,
+DEF00233,2025-03-22,Day,Line 2,M003,AI_Server_v1,Thermal_Failure,Critical,1,QC03,Rework,6.45,458.78,Repeat defect
+DEF00234,2025-03-22,Day,Line 2,M007,HPC_Rack_Unit,Firmware_Error,Critical,16,QC02,Scrap,,282.75,
+DEF00235,2025-03-23,Night,Line 2,M005,Server_Blade,Firmware_Error,Major,17,QC02,Rework,,40.63,Supplier issue
+DEF00236,2025-03-24,Night,Line 3,M001,AI_Server_v1,Wrong_Orientation,Minor,6,QC05,Scrap,,88.78,
+DEF00237,2025-03-24,Day,Line 3,M005,Server_Blade,Firmware_Error,Critical,13,QC04,Scrap,0.76,204.52,
+DEF00238,2025-03-24,Night,Line 2,M002,Server_Blade,Solder_Bridge,Minor,2,QC04,On Hold,6.75,88.04,Supplier issue
+DEF00239,2025-03-24,Night,Test Bay,M001,GPU_Module,Firmware_Error,Major,10,QC03,Rework,1.78,755.96,First occurrence
+DEF00240,2025-03-24,Night,Test Bay,M004,AI_Server_v1,Physical_Damage,Critical,16,QC01,Accept,4.97,251.66,Repeat defect
+DEF00241,2025-03-24,Day,Line 1,M007,HPC_Rack_Unit,Solder_Bridge,Minor,19,QC05,Scrap,,257.79,
+DEF00242,2025-03-25,Day,Line 3,M001,Server_Blade,Missing_Component,Minor,18,QC01,On Hold,5.97,423.95,
+DEF00243,2025-03-25,Night,Line 1,M005,HPC_Rack_Unit,Solder_Bridge,Major,6,QC02,On Hold,5.78,401.27,Supplier issue
+DEF00244,2025-03-25,Day,Line 1,M006,Server_Blade,Missing_Component,Minor,4,QC03,Scrap,5.36,733.04,Repeat defect
+DEF00245,2025-03-25,Night,Line 2,M002,PCB_Assembly,Cosmetic,Major,2,QC02,Rework,5.07,213.97,First occurrence
+DEF00246,2025-03-26,Night,Line 2,M005,PCB_Assembly,Physical_Damage,Minor,1,QC04,Rework,6.78,159.7,First occurrence
+DEF00247,2025-03-26,Day,Test Bay,M003,AI_Server_v1,Firmware_Error,Major,5,QC02,Scrap,1.14,722.75,First occurrence
+DEF00248,2025-03-26,Day,Line 3,M001,HPC_Rack_Unit,Firmware_Error,Minor,13,QC03,Scrap,,685.85,Repeat defect
+DEF00249,2025-03-26,Day,Test Bay,M001,HPC_Rack_Unit,Solder_Bridge,Critical,16,QC02,Rework,0.53,388.27,
+DEF00250,2025-03-26,Day,Test Bay,M002,HPC_Rack_Unit,Solder_Bridge,Minor,3,QC02,Rework,3.65,122.78,Supplier issue
+DEF00251,2025-03-27,Day,Line 2,M001,PCB_Assembly,Solder_Bridge,Critical,1,QC02,Accept,2.19,148.67,First occurrence
+DEF00252,2025-03-27,Day,Test Bay,M002,Server_Blade,Missing_Component,Minor,17,QC01,Rework,,163.53,
+DEF00253,2025-03-27,Night,Line 1,M006,Server_Blade,Solder_Bridge,Major,20,QC05,Accept,1.36,771.7,
+DEF00254,2025-03-27,Day,Test Bay,M001,GPU_Module,Thermal_Failure,Critical,20,QC02,On Hold,3.12,123.35,
+DEF00255,2025-03-27,Day,Line 1,M006,Server_Blade,Solder_Bridge,Critical,2,QC04,Scrap,,187.37,
+DEF00256,2025-03-27,Day,Line 1,M001,Server_Blade,Thermal_Failure,Minor,13,QC03,On Hold,3.73,600.97,
+DEF00257,2025-03-28,Night,Line 3,M005,Server_Blade,Physical_Damage,Major,15,QC05,Accept,,236.62,
+DEF00258,2025-03-28,Night,Line 3,M002,HPC_Rack_Unit,Wrong_Orientation,Minor,1,QC04,Accept,,373.35,
+DEF00259,2025-03-28,Day,Test Bay,M005,HPC_Rack_Unit,Cosmetic,Minor,12,QC02,Rework,3.49,589.42,First occurrence
+DEF00260,2025-03-29,Night,Line 3,M004,PCB_Assembly,Firmware_Error,Major,5,QC05,Rework,,572.95,Supplier issue
+DEF00261,2025-03-29,Night,Test Bay,M002,GPU_Module,Cosmetic,Major,12,QC03,Rework,3.89,438.83,First occurrence
+DEF00262,2025-03-29,Night,Line 1,M003,HPC_Rack_Unit,Missing_Component,Minor,18,QC02,On Hold,4.26,152.45,First occurrence
+DEF00263,2025-03-31,Night,Line 2,M002,PCB_Assembly,Firmware_Error,Minor,19,QC02,On Hold,6.31,166.27,First occurrence
+DEF00264,2025-03-31,Night,Line 2,M003,HPC_Rack_Unit,Cosmetic,Major,11,QC05,Scrap,5.12,37.89,
+DEF00265,2025-03-31,Day,Line 1,M007,AI_Server_v1,Solder_Bridge,Critical,11,QC01,Accept,3.01,597.43,
+DEF00266,2025-03-31,Day,Line 3,M003,GPU_Module,Wrong_Orientation,Critical,15,QC04,Accept,2.5,90.18,Supplier issue
+DEF00267,2025-03-31,Day,Line 2,M002,Server_Blade,Solder_Bridge,Critical,20,QC04,Rework,5.12,562.89,Repeat defect

@@ -1,0 +1,545 @@
+LOG_ID,MACHINE_ID,MACHINE_NAME,LOCATION,DATE,SHIFT,STATUS,UPTIME_HOURS,DOWNTIME_HOURS,ERROR_CODE,OPERATOR_ID,NOTES
+LOG00001,M001,CNC_Lathe_A,Line 1,2025-01-01,Day,Running,10.2,1.8,,OP103,Scheduled PM
+LOG00002,M002,PCB_Assembler_B,Line 2,,Night,Running,9.1,2.9,,OP106,
+LOG00003,M003,AI_Server_Tester,Test Bay,2025-01-01,Night,Running,8.9,3.1,,OP107,Needs inspection
+LOG00004,M004,Soldering_Robot,Line 1,2025-01-01,Night,Running,10.3,1.7,,OP110,
+LOG00005,M005,HPC_Burn_In_Rack,Test Bay,2025-01-01,Day,Maintenance,0.4,11.6,,OP111,Sensor fluctuation
+LOG00006,M006,conveyor_belt_c,Line 3,2025-01-01,Night,Running,10.1,1.9,,OP102,Sensor fluctuation
+LOG00007,M007,Screw_Driver_Auto,Line 2,2025-01-01,Day,Maintenance,2.3,9.7,,OP107,
+LOG00009,M001,CNC_Lathe_A,Line 1,2025-01-02,Night,Running,9.7,2.3,,OP105,Sensor fluctuation
+LOG00010,M002,PCB_Assembler_B,Line 2,2025-01-02,Night,Running,8.2,3.8,,OP110,
+LOG00011,M003,AI_Server_Tester,Test Bay,2025-01-02,Night,Running,10.6,1.4,,OP106,Sensor fluctuation
+LOG00012,M004,Soldering_Robot,Line 1,2025-01-02,,Maintenance,0.9,11.1,,OP104,
+LOG00013,M006,conveyor_belt_c,Line 3,2025-01-02,Night,Down,3.0,9.0,E101,OP111,
+LOG00014,M007,Screw_Driver_Auto,Line 2,2025-01-02,Day,Running,8.6,3.4,,OP103,
+LOG00016,M001,CNC_Lathe_A,Line 1,2025-01-03,Day,Running,9.8,2.2,,OP110,
+LOG00017,M002,PCB_Assembler_B,Line 2,2025-01-03,Day,Running,8.2,3.8,,OP105,Sensor fluctuation
+LOG00018,M003,AI_Server_Tester,Test Bay,2025-01-03,Day,Down,3.4,8.6,,OP100,Sensor fluctuation
+LOG00019,M004,Soldering_Robot,Line 1,2025-01-03,Day,Running,5.8,6.2,,OP107,
+LOG00020,M005,HPC_Burn_In_Rack,Test Bay,2025-01-03,Night,Running,5.6,6.4,,OP104,
+LOG00021,M006,conveyor_belt_c,Line 3,2025-01-03,Night,Running,6.9,5.1,,OP106,Sensor fluctuation
+LOG00022,M007,Screw_Driver_Auto,Line 2,2025-01-03,Day,Running,10.0,2.0,,OP114,Sensor fluctuation
+LOG00024,M002,PCB_Assembler_B,Line 2,,Day,Running,5.5,6.5,,OP102,Sensor fluctuation
+LOG00025,M003,AI_Server_Tester,Test Bay,2025-01-04,,Error,0.9,11.1,,OP107,Needs inspection
+LOG00026,M004,Soldering_Robot,Line 1,2025-01-04,Day,Running,5.7,6.3,,OP113,Needs inspection
+LOG00027,M005,HPC_Burn_In_Rack,Test Bay,2025-01-04,Night,Running,9.7,2.3,,OP101,Needs inspection
+LOG00028,M006,conveyor_belt_c,Line 3,2025-01-04,,Running,6.7,5.3,,OP104,Needs inspection
+LOG00029,M007,Screw_Driver_Auto,Line 2,2025-01-04,Night,Error,1.0,11.0,E204,OP101,Scheduled PM
+LOG00031,M001,CNC_Lathe_A,Line 1,2025-01-05,Day,Running,11.1,0.9,,OP112,
+LOG00032,M002,PCB_Assembler_B,Line 2,2025-01-05,,Down,3.7,8.3,,OP104,
+LOG00033,M003,AI_Server_Tester,Test Bay,2025-01-05,Day,Running,9.1,2.9,,OP101,
+LOG00034,M004,Soldering_Robot,Line 1,2025-01-05,Day,Running,5.4,6.6,,OP102,Sensor fluctuation
+LOG00035,M006,conveyor_belt_c,Line 3,2025-01-05,Night,Running,5.8,6.2,,OP101,Sensor fluctuation
+LOG00037,M001,CNC_Lathe_A,Line 1,,Night,Down,1.8,10.2,E204,OP102,Sensor fluctuation
+LOG00038,M002,PCB_Assembler_B,Line 2,2025-01-06,Night,Down,0.5,11.5,,OP111,
+LOG00039,M003,AI_Server_Tester,Test Bay,2025-01-06,Day,Down,2.4,9.6,E101,OP103,
+LOG00040,M004,Soldering_Robot,Line 1,2025-01-06,Day,Running,10.2,1.8,,OP106,Scheduled PM
+LOG00041,M005,HPC_Burn_In_Rack,Test Bay,2025-01-06,Day,Down,2.0,10.0,E305,OP102,Scheduled PM
+LOG00042,M006,conveyor_belt_c,Line 3,2025-01-06,Day,Down,0.2,11.8,,OP105,Scheduled PM
+LOG00043,M007,Screw_Driver_Auto,Line 2,2025-01-06,Day,Running,8.9,3.1,,OP101,
+LOG00045,M001,CNC_Lathe_A,Line 1,2025-01-07,Night,Running,9.7,2.3,,OP104,
+LOG00046,M002,PCB_Assembler_B,Line 2,,Day,Running,11.2,0.8,,OP113,Scheduled PM
+LOG00047,M003,AI_Server_Tester,Test Bay,2025-01-07,Night,Running,6.9,5.1,,OP112,
+LOG00048,M004,Soldering_Robot,Line 1,2025-01-07,Day,Running,6.4,5.6,,OP109,
+LOG00049,M005,HPC_Burn_In_Rack,Test Bay,2025-01-07,Night,Running,7.8,4.2,,OP108,
+LOG00050,M006,conveyor_belt_c,Line 3,2025-01-07,Day,Running,9.8,2.2,,OP100,
+LOG00051,M007,Screw_Driver_Auto,Line 2,,Night,Down,0.7,11.3,E305,OP111,Scheduled PM
+LOG00053,M002,PCB_Assembler_B,Line 2,2025-01-08,Day,Running,7.5,4.5,,OP110,Scheduled PM
+LOG00054,M003,AI_Server_Tester,Test Bay,2025-01-08,Day,Down,2.0,10.0,E101,OP104,
+LOG00055,M004,Soldering_Robot,Line 1,2025-01-08,Day,Running,9.7,2.3,,OP112,Sensor fluctuation
+LOG00056,M005,HPC_Burn_In_Rack,Test Bay,2025-01-08,Day,Down,1.1,10.9,E101,OP114,Needs inspection
+LOG00057,M006,conveyor_belt_c,Line 3,2025-01-08,Day,Running,8.6,3.4,,OP102,
+LOG00058,M007,Screw_Driver_Auto,Line 2,2025-01-08,Night,Maintenance,0.4,11.6,,OP109,
+LOG00060,M001,CNC_Lathe_A,Line 1,2025-01-09,Night,Running,10.0,2.0,,OP107,
+LOG00061,M002,PCB_Assembler_B,Line 2,2025-01-09,Night,Running,11.2,0.8,,OP113,
+LOG00062,M003,AI_Server_Tester,Test Bay,2025-01-09,Night,Error,0.2,11.8,,OP114,
+LOG00063,M004,Soldering_Robot,Line 1,2025-01-09,Night,Maintenance,3.8,8.2,,OP114,
+LOG00064,M005,HPC_Burn_In_Rack,Test Bay,2025-01-09,Day,Error,1.8,10.2,,OP115,Scheduled PM
+LOG00065,M006,conveyor_belt_c,Line 3,2025-01-09,Day,Error,0.3,11.7,E305,OP110,Sensor fluctuation
+LOG00067,M001,CNC_Lathe_A,Line 1,2025-01-10,Night,Error,1.7,10.3,,OP100,Sensor fluctuation
+LOG00068,M002,PCB_Assembler_B,Line 2,2025-01-10,Night,Running,11.6,0.4,,OP113,Sensor fluctuation
+LOG00069,M003,AI_Server_Tester,Test Bay,2025-01-10,,Running,8.4,3.6,,OP100,Needs inspection
+LOG00070,M004,Soldering_Robot,Line 1,2025-01-10,Day,Running,10.1,1.9,,OP100,Needs inspection
+LOG00071,M005,HPC_Burn_In_Rack,Test Bay,2025-01-10,,Running,5.6,6.4,,OP105,
+LOG00072,M006,conveyor_belt_c,Line 3,2025-01-10,Night,Maintenance,0.8,11.2,,OP108,Needs inspection
+LOG00073,M007,Screw_Driver_Auto,Line 2,2025-01-10,Day,Running,8.3,3.7,,OP111,
+LOG00075,M001,CNC_Lathe_A,Line 1,2025-01-11,Night,Running,8.3,3.7,,OP114,Scheduled PM
+LOG00076,M002,PCB_Assembler_B,Line 2,2025-01-11,Night,Maintenance,0.7,11.3,,OP105,
+LOG00077,M005,HPC_Burn_In_Rack,Test Bay,2025-01-11,Night,Running,7.8,4.2,,OP107,
+LOG00078,M006,conveyor_belt_c,Line 3,2025-01-11,Day,Down,3.4,8.6,E204,OP111,Sensor fluctuation
+LOG00079,M007,Screw_Driver_Auto,Line 2,2025-01-11,Day,Maintenance,0.3,11.7,,OP113,Needs inspection
+LOG00080,M001,CNC_Lathe_A,Line 1,2025-01-12,Day,Error,2.8,9.2,E101,OP115,Needs inspection
+LOG00081,M002,PCB_Assembler_B,Line 2,2025-01-12,Night,Down,1.3,10.7,,OP108,Needs inspection
+LOG00082,M003,AI_Server_Tester,Test Bay,2025-01-12,,Error,2.3,9.7,E101,OP110,
+LOG00083,M004,Soldering_Robot,Line 1,2025-01-12,Day,Maintenance,3.2,8.8,,OP100,Sensor fluctuation
+LOG00084,M005,HPC_Burn_In_Rack,Test Bay,2025-01-12,Night,Running,6.7,5.3,,OP115,Scheduled PM
+LOG00085,M006,conveyor_belt_c,Line 3,2025-01-12,Night,Error,3.2,8.8,E204,OP107,
+LOG00086,M007,Screw_Driver_Auto,Line 2,2025-01-12,Night,Maintenance,1.9,10.1,,OP110,
+LOG00088,M001,CNC_Lathe_A,Line 1,2025-01-13,Day,Running,6.3,5.7,,OP109,
+LOG00089,M002,PCB_Assembler_B,Line 2,2025-01-13,Day,Down,0.9,11.1,,OP108,
+LOG00090,M003,AI_Server_Tester,Test Bay,2025-01-13,,Down,2.8,9.2,,OP103,
+LOG00091,M004,Soldering_Robot,Line 1,2025-01-13,Day,Error,1.9,10.1,,OP108,Needs inspection
+LOG00092,M007,Screw_Driver_Auto,Line 2,2025-01-13,Day,Running,6.1,5.9,,OP102,
+LOG00093,M001,CNC_Lathe_A,Line 1,2025-01-14,,Running,10.4,1.6,,OP109,Sensor fluctuation
+LOG00094,M002,PCB_Assembler_B,Line 2,2025-01-14,Night,Down,2.3,9.7,E101,OP106,Scheduled PM
+LOG00095,M003,AI_Server_Tester,Test Bay,2025-01-14,Night,Running,6.1,5.9,,OP105,
+LOG00096,M004,Soldering_Robot,Line 1,2025-01-14,Day,Error,1.2,10.8,,OP114,
+LOG00097,M005,HPC_Burn_In_Rack,Test Bay,2025-01-14,Night,Down,3.2,8.8,,OP104,
+LOG00098,M006,conveyor_belt_c,Line 3,2025-01-14,Day,Running,5.4,6.6,,OP114,
+LOG00099,M007,Screw_Driver_Auto,Line 2,2025-01-14,,Down,2.8,9.2,E305,OP114,
+LOG00101,M001,CNC_Lathe_A,Line 1,2025-01-15,Day,Running,12.0,0.0,,OP101,
+LOG00102,M002,PCB_Assembler_B,Line 2,2025-01-15,Night,Error,3.7,8.3,,OP115,
+LOG00103,M003,AI_Server_Tester,Test Bay,2025-01-15,Day,Running,7.3,4.7,,OP110,Needs inspection
+LOG00104,M004,Soldering_Robot,Line 1,2025-01-15,Day,Down,2.7,9.3,E101,OP114,
+LOG00105,M005,HPC_Burn_In_Rack,Test Bay,2025-01-15,Day,Maintenance,0.5,11.5,,OP114,Needs inspection
+LOG00106,M007,Screw_Driver_Auto,Line 2,2025-01-15,Day,Error,2.5,9.5,E101,OP109,Needs inspection
+LOG00108,M001,CNC_Lathe_A,Line 1,2025-01-16,,Running,11.9,0.1,,OP103,Scheduled PM
+LOG00109,M002,PCB_Assembler_B,Line 2,2025-01-16,Day,Error,3.7,8.3,E305,OP113,Needs inspection
+LOG00110,M003,AI_Server_Tester,Test Bay,2025-01-16,Night,Running,8.2,3.8,,OP104,
+LOG00111,M004,Soldering_Robot,Line 1,2025-01-16,Day,Running,7.4,4.6,,OP100,
+LOG00112,M005,HPC_Burn_In_Rack,Test Bay,2025-01-16,Day,Error,3.5,8.5,,OP110,Sensor fluctuation
+LOG00113,M006,conveyor_belt_c,Line 3,2025-01-16,Night,Running,8.2,3.8,,OP107,Sensor fluctuation
+LOG00114,M007,Screw_Driver_Auto,Line 2,2025-01-16,Night,Running,5.3,6.7,,OP112,Scheduled PM
+LOG00116,M002,PCB_Assembler_B,Line 2,2025-01-17,Day,Running,10.1,1.9,,OP102,Needs inspection
+LOG00117,M003,AI_Server_Tester,Test Bay,2025-01-17,Day,Down,1.4,10.6,E101,OP112,
+LOG00118,M004,Soldering_Robot,Line 1,2025-01-17,Night,Error,3.5,8.5,E101,OP109,
+LOG00119,M005,HPC_Burn_In_Rack,Test Bay,2025-01-17,Night,Running,11.8,0.2,,OP114,
+LOG00120,M006,conveyor_belt_c,Line 3,2025-01-17,Day,Running,5.3,6.7,,OP111,
+LOG00121,M007,Screw_Driver_Auto,Line 2,2025-01-17,Day,Running,8.7,3.3,,OP105,
+LOG00122,M001,CNC_Lathe_A,Line 1,2025-01-18,Night,Running,8.5,3.5,,OP114,Scheduled PM
+LOG00123,M002,PCB_Assembler_B,Line 2,2025-01-18,Day,Down,2.7,9.3,,OP102,Needs inspection
+LOG00124,M003,AI_Server_Tester,Test Bay,2025-01-18,,Down,2.6,9.4,E101,OP109,
+LOG00125,M004,Soldering_Robot,Line 1,2025-01-18,Day,Error,0.4,11.6,E101,OP109,
+LOG00126,M005,HPC_Burn_In_Rack,Test Bay,2025-01-18,Day,Running,6.9,5.1,,OP115,
+LOG00127,M006,conveyor_belt_c,Line 3,2025-01-18,Night,Running,9.2,2.8,,OP108,Scheduled PM
+LOG00128,M007,Screw_Driver_Auto,Line 2,2025-01-18,Day,Running,9.4,2.6,,OP109,Needs inspection
+LOG00129,M001,CNC_Lathe_A,Line 1,2025-01-19,Night,Running,5.6,6.4,,OP105,
+LOG00130,M003,AI_Server_Tester,Test Bay,2025-01-19,Day,Maintenance,2.1,9.9,,OP108,Needs inspection
+LOG00131,M004,Soldering_Robot,Line 1,2025-01-19,,Down,3.0,9.0,,OP102,
+LOG00132,M005,HPC_Burn_In_Rack,Test Bay,2025-01-19,Night,Running,11.0,1.0,,OP111,
+LOG00133,M006,conveyor_belt_c,Line 3,2025-01-19,Day,Running,6.9,5.1,,OP108,Sensor fluctuation
+LOG00134,M007,Screw_Driver_Auto,Line 2,2025-01-19,Day,Maintenance,0.4,11.6,,OP110,Sensor fluctuation
+LOG00136,M002,PCB_Assembler_B,Line 2,2025-01-20,Day,Down,4.0,8.0,E204,OP112,Needs inspection
+LOG00137,M003,AI_Server_Tester,Test Bay,2025-01-20,Night,Running,9.1,2.9,,OP103,Needs inspection
+LOG00138,M004,Soldering_Robot,Line 1,2025-01-20,,Down,0.1,11.9,,OP107,
+LOG00139,M006,conveyor_belt_c,Line 3,2025-01-20,Night,Maintenance,0.2,11.8,,OP114,
+LOG00140,M007,Screw_Driver_Auto,Line 2,2025-01-20,Day,Running,5.4,6.6,,OP106,
+LOG00142,M001,CNC_Lathe_A,Line 1,2025-01-21,Day,Running,6.9,5.1,,OP108,
+LOG00143,M003,AI_Server_Tester,Test Bay,2025-01-21,Night,Running,5.1,6.9,,OP110,
+LOG00144,M004,Soldering_Robot,Line 1,2025-01-21,Night,Running,5.9,6.1,,OP102,Needs inspection
+LOG00145,M005,HPC_Burn_In_Rack,Test Bay,2025-01-21,Night,Maintenance,2.1,9.9,,OP101,Scheduled PM
+LOG00146,M006,conveyor_belt_c,Line 3,2025-01-21,,Down,1.8,10.2,E101,OP112,Needs inspection
+LOG00147,M007,Screw_Driver_Auto,Line 2,2025-01-21,Night,Error,2.8,9.2,,OP110,Sensor fluctuation
+LOG00148,M002,PCB_Assembler_B,Line 2,2025-01-22,Day,Maintenance,1.5,10.5,,OP114,Sensor fluctuation
+LOG00149,M003,AI_Server_Tester,Test Bay,2025-01-22,Night,Running,10.6,1.4,,OP113,Needs inspection
+LOG00150,M004,Soldering_Robot,Line 1,2025-01-22,Night,Running,7.4,4.6,,OP103,
+LOG00151,M005,HPC_Burn_In_Rack,Test Bay,2025-01-22,,Down,1.5,10.5,,OP102,
+LOG00152,M006,conveyor_belt_c,Line 3,2025-01-22,Day,Running,8.0,4.0,,OP104,Sensor fluctuation
+LOG00154,M001,CNC_Lathe_A,Line 1,2025-01-23,Day,Maintenance,0.4,11.6,,OP115,
+LOG00155,M002,PCB_Assembler_B,Line 2,2025-01-23,Day,Maintenance,3.4,8.6,,OP107,Needs inspection
+LOG00156,M003,AI_Server_Tester,Test Bay,2025-01-23,Day,Running,9.3,2.7,,OP100,
+LOG00157,M004,Soldering_Robot,Line 1,,Day,Down,3.7,8.3,,OP112,
+LOG00158,M006,conveyor_belt_c,Line 3,2025-01-23,Night,Running,5.6,6.4,,OP113,Needs inspection
+LOG00159,M007,Screw_Driver_Auto,Line 2,2025-01-23,Night,Maintenance,1.2,10.8,,OP101,
+LOG00161,M001,CNC_Lathe_A,Line 1,2025-01-24,Night,Down,0.9,11.1,E204,OP109,Scheduled PM
+LOG00162,M002,PCB_Assembler_B,Line 2,,Night,Error,2.1,9.9,E305,OP101,
+LOG00163,M003,AI_Server_Tester,Test Bay,2025-01-24,Day,Running,10.4,1.6,,OP110,
+LOG00164,M005,HPC_Burn_In_Rack,Test Bay,2025-01-24,Night,Running,5.9,6.1,,OP111,
+LOG00165,M006,conveyor_belt_c,Line 3,2025-01-24,Night,Running,8.1,3.9,,OP110,Sensor fluctuation
+LOG00166,M007,Screw_Driver_Auto,Line 2,2025-01-24,Night,Running,10.0,2.0,,OP112,
+LOG00168,M001,CNC_Lathe_A,Line 1,2025-01-25,Night,Running,8.0,4.0,,OP112,
+LOG00169,M002,PCB_Assembler_B,Line 2,2025-01-25,Night,Running,7.3,4.7,,OP106,
+LOG00170,M003,AI_Server_Tester,Test Bay,2025-01-25,Night,Running,6.7,5.3,,OP105,Sensor fluctuation
+LOG00171,M004,Soldering_Robot,Line 1,2025-01-25,,Running,6.2,5.8,,OP114,Sensor fluctuation
+LOG00172,M005,HPC_Burn_In_Rack,Test Bay,2025-01-25,Day,Error,2.7,9.3,,OP104,Needs inspection
+LOG00173,M007,Screw_Driver_Auto,Line 2,2025-01-25,Night,Down,3.2,8.8,E101,OP109,Needs inspection
+LOG00175,M001,CNC_Lathe_A,Line 1,2025-01-26,Night,Running,8.1,3.9,,OP110,Sensor fluctuation
+LOG00176,M002,PCB_Assembler_B,Line 2,2025-01-26,Day,Running,11.7,0.3,,OP102,Sensor fluctuation
+LOG00177,M003,AI_Server_Tester,Test Bay,2025-01-26,,Running,6.7,5.3,,OP105,
+LOG00178,M004,Soldering_Robot,Line 1,2025-01-26,Day,Down,1.5,10.5,,OP110,
+LOG00179,M005,HPC_Burn_In_Rack,Test Bay,2025-01-26,Day,Running,7.0,5.0,,OP110,
+LOG00180,M006,conveyor_belt_c,Line 3,2025-01-26,Night,Running,11.4,0.6,,OP104,Sensor fluctuation
+LOG00181,M007,Screw_Driver_Auto,Line 2,2025-01-26,Day,Running,7.2,4.8,,OP104,Scheduled PM
+LOG00183,M001,CNC_Lathe_A,Line 1,2025-01-27,Night,Running,7.4,4.6,,OP107,
+LOG00184,M002,PCB_Assembler_B,Line 2,2025-01-27,Day,Down,3.4,8.6,E204,OP110,Sensor fluctuation
+LOG00185,M004,Soldering_Robot,Line 1,2025-01-27,Day,Running,6.3,5.7,,OP114,
+LOG00186,M005,HPC_Burn_In_Rack,Test Bay,2025-01-27,,Running,11.8,0.2,,OP107,Sensor fluctuation
+LOG00187,M006,conveyor_belt_c,Line 3,2025-01-27,,Error,3.6,8.4,,OP114,
+LOG00188,M007,Screw_Driver_Auto,Line 2,2025-01-27,Day,Running,11.8,0.2,,OP108,
+LOG00190,M001,CNC_Lathe_A,Line 1,2025-01-28,Night,Down,1.8,10.2,,OP107,Needs inspection
+LOG00191,M002,PCB_Assembler_B,Line 2,2025-01-28,Day,Running,7.9,4.1,,OP107,Needs inspection
+LOG00192,M003,AI_Server_Tester,Test Bay,2025-01-28,Night,Maintenance,0.9,11.1,,OP110,
+LOG00193,M005,HPC_Burn_In_Rack,Test Bay,2025-01-28,,Error,2.8,9.2,,OP114,Sensor fluctuation
+LOG00195,M001,CNC_Lathe_A,Line 1,2025-01-29,,Running,5.3,6.7,,OP102,
+LOG00196,M002,PCB_Assembler_B,Line 2,2025-01-29,Night,Error,2.4,9.6,E101,OP104,
+LOG00197,M003,AI_Server_Tester,Test Bay,2025-01-29,Night,Maintenance,1.0,11.0,,OP111,
+LOG00198,M004,Soldering_Robot,Line 1,2025-01-29,Night,Running,7.7,4.3,,OP111,
+LOG00199,M005,HPC_Burn_In_Rack,Test Bay,2025-01-29,Night,Maintenance,3.2,8.8,,OP110,
+LOG00200,M007,Screw_Driver_Auto,Line 2,2025-01-29,,Running,10.8,1.2,,OP105,
+LOG00201,M001,CNC_Lathe_A,Line 1,,Night,Error,0.1,11.9,,OP101,
+LOG00202,M002,PCB_Assembler_B,Line 2,2025-01-30,Day,Running,11.9,0.1,,OP101,Scheduled PM
+LOG00203,M003,AI_Server_Tester,Test Bay,,Day,Maintenance,3.4,8.6,,OP108,
+LOG00204,M004,Soldering_Robot,Line 1,2025-01-30,Night,Running,11.2,0.8,,OP110,
+LOG00205,M005,HPC_Burn_In_Rack,Test Bay,2025-01-30,Night,Error,1.5,10.5,E305,OP102,Needs inspection
+LOG00206,M006,conveyor_belt_c,Line 3,2025-01-30,Night,Running,8.8,3.2,,OP110,Scheduled PM
+LOG00207,M007,Screw_Driver_Auto,Line 2,2025-01-30,,Error,2.4,9.6,E101,OP111,Needs inspection
+LOG00208,M001,CNC_Lathe_A,Line 1,2025-01-31,Day,Maintenance,2.5,9.5,,OP102,Scheduled PM
+LOG00209,M002,PCB_Assembler_B,Line 2,2025-01-31,Day,Maintenance,2.1,9.9,,OP100,
+LOG00210,M003,AI_Server_Tester,Test Bay,2025-01-31,Day,Error,0.1,11.9,E204,OP111,Needs inspection
+LOG00211,M004,Soldering_Robot,Line 1,2025-01-31,Day,Running,9.2,2.8,,OP111,Needs inspection
+LOG00212,M005,HPC_Burn_In_Rack,Test Bay,2025-01-31,Day,Running,8.7,3.3,,OP107,
+LOG00213,M007,Screw_Driver_Auto,Line 2,2025-01-31,Day,Running,11.4,0.6,,OP114,
+LOG00215,M001,CNC_Lathe_A,Line 1,2025-02-01,Night,Error,4.0,8.0,,OP109,
+LOG00216,M002,PCB_Assembler_B,Line 2,2025-02-01,Night,Running,10.6,1.4,,OP106,
+LOG00217,M003,AI_Server_Tester,Test Bay,2025-02-01,Day,Error,0.1,11.9,,OP102,
+LOG00218,M004,Soldering_Robot,Line 1,2025-02-01,Night,Error,2.1,9.9,E101,OP104,
+LOG00219,M005,HPC_Burn_In_Rack,Test Bay,2025-02-01,Day,Error,1.9,10.1,,OP104,Needs inspection
+LOG00220,M006,conveyor_belt_c,Line 3,2025-02-01,Day,Running,10.8,1.2,,OP105,
+LOG00221,M007,Screw_Driver_Auto,Line 2,2025-02-01,Day,Running,7.4,4.6,,OP102,
+LOG00223,M001,CNC_Lathe_A,Line 1,2025-02-02,Day,Running,6.2,5.8,,OP101,
+LOG00224,M003,AI_Server_Tester,Test Bay,2025-02-02,Day,Down,2.6,9.4,E101,OP115,Scheduled PM
+LOG00225,M004,Soldering_Robot,Line 1,2025-02-02,Night,Down,1.9,10.1,E101,OP101,
+LOG00226,M005,HPC_Burn_In_Rack,Test Bay,2025-02-02,Day,Error,1.9,10.1,,OP110,Scheduled PM
+LOG00227,M006,conveyor_belt_c,Line 3,2025-02-02,Day,Maintenance,3.9,8.1,,OP103,
+LOG00228,M007,Screw_Driver_Auto,Line 2,2025-02-02,Night,Running,6.9,5.1,,OP101,
+LOG00230,M001,CNC_Lathe_A,Line 1,2025-02-03,,Running,10.3,1.7,,OP115,
+LOG00231,M002,PCB_Assembler_B,Line 2,2025-02-03,Night,Running,11.6,0.4,,OP106,Sensor fluctuation
+LOG00232,M003,AI_Server_Tester,Test Bay,2025-02-03,,Running,7.0,5.0,,OP109,Sensor fluctuation
+LOG00233,M007,Screw_Driver_Auto,Line 2,2025-02-03,Night,Maintenance,3.1,8.9,,OP101,Sensor fluctuation
+LOG00235,M001,CNC_Lathe_A,Line 1,2025-02-04,Day,Running,5.9,6.1,,OP110,Sensor fluctuation
+LOG00236,M002,PCB_Assembler_B,Line 2,2025-02-04,Day,Running,6.4,5.6,,OP101,
+LOG00237,M004,Soldering_Robot,Line 1,2025-02-04,Day,Error,2.1,9.9,,OP110,Sensor fluctuation
+LOG00238,M005,HPC_Burn_In_Rack,Test Bay,2025-02-04,Day,Running,11.9,0.1,,OP110,Sensor fluctuation
+LOG00239,M006,conveyor_belt_c,Line 3,2025-02-04,Day,Error,2.8,9.2,E305,OP111,
+LOG00240,M007,Screw_Driver_Auto,Line 2,2025-02-04,Day,Running,9.1,2.9,,OP115,
+LOG00242,M001,CNC_Lathe_A,Line 1,2025-02-05,Night,Running,5.2,6.8,,OP106,
+LOG00243,M002,PCB_Assembler_B,Line 2,2025-02-05,Night,Running,6.1,5.9,,OP115,Scheduled PM
+LOG00244,M003,AI_Server_Tester,Test Bay,2025-02-05,,Running,8.6,3.4,,OP112,
+LOG00245,M004,Soldering_Robot,Line 1,2025-02-05,Day,Error,3.6,8.4,,OP115,
+LOG00246,M005,HPC_Burn_In_Rack,Test Bay,2025-02-05,Day,Down,2.2,9.8,,OP109,Scheduled PM
+LOG00247,M006,conveyor_belt_c,Line 3,2025-02-05,Day,Error,1.3,10.7,,OP109,
+LOG00248,M007,Screw_Driver_Auto,Line 2,2025-02-05,Day,Running,11.3,0.7,,OP104,
+LOG00249,M001,CNC_Lathe_A,Line 1,2025-02-06,Day,Running,7.4,4.6,,OP115,
+LOG00250,M002,PCB_Assembler_B,Line 2,2025-02-06,Night,Down,3.7,8.3,E305,OP107,
+LOG00251,M003,AI_Server_Tester,Test Bay,2025-02-06,Night,Running,9.5,2.5,,OP110,Scheduled PM
+LOG00252,M004,Soldering_Robot,Line 1,2025-02-06,Day,Running,5.0,7.0,,OP113,Scheduled PM
+LOG00253,M005,HPC_Burn_In_Rack,Test Bay,2025-02-06,Day,Error,1.9,10.1,,OP110,
+LOG00254,M006,conveyor_belt_c,Line 3,2025-02-06,Day,Running,9.6,2.4,,OP105,Needs inspection
+LOG00255,M007,Screw_Driver_Auto,Line 2,,Night,Running,11.5,0.5,,OP115,
+LOG00257,M001,CNC_Lathe_A,Line 1,2025-02-07,,Error,3.6,8.4,,OP108,
+LOG00258,M002,PCB_Assembler_B,Line 2,2025-02-07,Day,Maintenance,0.6,11.4,,OP105,
+LOG00259,M003,AI_Server_Tester,Test Bay,2025-02-07,Night,Down,2.3,9.7,,OP113,Sensor fluctuation
+LOG00260,M004,Soldering_Robot,Line 1,2025-02-07,Day,Running,9.7,2.3,,OP115,
+LOG00261,M005,HPC_Burn_In_Rack,Test Bay,2025-02-07,Day,Running,6.8,5.2,,OP110,
+LOG00262,M006,conveyor_belt_c,Line 3,2025-02-07,Night,Running,6.8,5.2,,OP101,Scheduled PM
+LOG00264,M001,CNC_Lathe_A,Line 1,2025-02-08,Day,Down,1.5,10.5,,OP115,
+LOG00265,M002,PCB_Assembler_B,Line 2,2025-02-08,,Maintenance,1.7,10.3,,OP106,
+LOG00266,M003,AI_Server_Tester,Test Bay,2025-02-08,Day,Running,8.7,3.3,,OP102,Sensor fluctuation
+LOG00267,M005,HPC_Burn_In_Rack,Test Bay,2025-02-08,Day,Running,9.0,3.0,,OP114,
+LOG00268,M006,conveyor_belt_c,Line 3,2025-02-08,,Error,0.4,11.6,,OP104,Sensor fluctuation
+LOG00269,M007,Screw_Driver_Auto,Line 2,2025-02-08,Day,Running,8.9,3.1,,OP100,Needs inspection
+LOG00271,M001,CNC_Lathe_A,Line 1,2025-02-09,,Running,11.5,0.5,,OP101,
+LOG00272,M002,PCB_Assembler_B,Line 2,2025-02-09,Night,Running,10.4,1.6,,OP111,Needs inspection
+LOG00273,M003,AI_Server_Tester,Test Bay,2025-02-09,Day,Running,7.6,4.4,,OP111,
+LOG00274,M004,Soldering_Robot,Line 1,2025-02-09,Night,Running,8.7,3.3,,OP100,
+LOG00275,M005,HPC_Burn_In_Rack,Test Bay,2025-02-09,Night,Error,2.7,9.3,E101,OP107,Needs inspection
+LOG00276,M006,conveyor_belt_c,Line 3,,Night,Down,0.8,11.2,E204,OP100,
+LOG00277,M007,Screw_Driver_Auto,Line 2,2025-02-09,Day,Running,9.2,2.8,,OP107,Scheduled PM
+LOG00278,M001,CNC_Lathe_A,Line 1,2025-02-10,Day,Running,10.3,1.7,,OP109,
+LOG00279,M002,PCB_Assembler_B,Line 2,2025-02-10,Day,Maintenance,2.3,9.7,,OP107,
+LOG00280,M003,AI_Server_Tester,Test Bay,2025-02-10,Day,Running,7.9,4.1,,OP113,Sensor fluctuation
+LOG00281,M004,Soldering_Robot,Line 1,2025-02-10,Day,Maintenance,3.8,8.2,,OP113,Needs inspection
+LOG00282,M006,conveyor_belt_c,Line 3,2025-02-10,Day,Error,1.0,11.0,,OP114,
+LOG00283,M007,Screw_Driver_Auto,Line 2,2025-02-10,Night,Running,8.9,3.1,,OP108,
+LOG00285,M001,CNC_Lathe_A,Line 1,2025-02-11,Night,Running,11.1,0.9,,OP115,
+LOG00286,M002,PCB_Assembler_B,Line 2,2025-02-11,Night,Maintenance,1.2,10.8,,OP106,Scheduled PM
+LOG00287,M004,Soldering_Robot,Line 1,2025-02-11,Night,Error,3.7,8.3,,OP110,
+LOG00288,M005,HPC_Burn_In_Rack,Test Bay,2025-02-11,,Maintenance,1.2,10.8,,OP114,
+LOG00289,M006,conveyor_belt_c,Line 3,2025-02-11,Day,Error,3.0,9.0,,OP110,Needs inspection
+LOG00291,M001,CNC_Lathe_A,Line 1,2025-02-12,,Running,7.7,4.3,,OP110,
+LOG00292,M002,PCB_Assembler_B,Line 2,2025-02-12,Day,Error,3.9,8.1,,OP105,
+LOG00293,M003,AI_Server_Tester,Test Bay,2025-02-12,Night,Error,0.7,11.3,E101,OP101,
+LOG00294,M004,Soldering_Robot,Line 1,2025-02-12,Night,Running,5.5,6.5,,OP114,
+LOG00295,M006,conveyor_belt_c,Line 3,,Night,Error,2.6,9.4,E101,OP100,
+LOG00296,M007,Screw_Driver_Auto,Line 2,,Night,Down,2.1,9.9,E305,OP105,
+LOG00298,M001,CNC_Lathe_A,Line 1,2025-02-13,Night,Running,7.6,4.4,,OP107,
+LOG00299,M002,PCB_Assembler_B,Line 2,2025-02-13,Day,Running,9.6,2.4,,OP102,Needs inspection
+LOG00300,M003,AI_Server_Tester,Test Bay,2025-02-13,Night,Error,0.2,11.8,E101,OP115,Needs inspection
+LOG00301,M004,Soldering_Robot,Line 1,2025-02-13,Night,Maintenance,2.3,9.7,,OP101,
+LOG00302,M005,HPC_Burn_In_Rack,Test Bay,2025-02-13,Day,Error,1.1,10.9,E204,OP101,
+LOG00303,M006,conveyor_belt_c,Line 3,2025-02-13,Day,Maintenance,0.1,11.9,,OP112,
+LOG00304,M007,Screw_Driver_Auto,Line 2,2025-02-13,Day,Running,9.0,3.0,,OP112,Scheduled PM
+LOG00305,M001,CNC_Lathe_A,Line 1,2025-02-14,Day,Running,8.5,3.5,,OP103,Needs inspection
+LOG00306,M002,PCB_Assembler_B,Line 2,2025-02-14,Night,Running,7.4,4.6,,OP110,
+LOG00307,M003,AI_Server_Tester,Test Bay,2025-02-14,Night,Error,2.0,10.0,,OP113,
+LOG00308,M004,Soldering_Robot,Line 1,2025-02-14,Night,Running,5.6,6.4,,OP102,
+LOG00309,M005,HPC_Burn_In_Rack,Test Bay,2025-02-14,Night,Running,10.0,2.0,,OP110,
+LOG00311,M001,CNC_Lathe_A,Line 1,2025-02-15,Night,Running,5.7,6.3,,OP110,Needs inspection
+LOG00312,M003,AI_Server_Tester,Test Bay,2025-02-15,Night,Running,10.1,1.9,,OP105,Scheduled PM
+LOG00313,M004,Soldering_Robot,Line 1,2025-02-15,Day,Running,6.9,5.1,,OP102,
+LOG00314,M005,HPC_Burn_In_Rack,Test Bay,2025-02-15,Day,Running,7.1,4.9,,OP108,
+LOG00315,M006,conveyor_belt_c,Line 3,2025-02-15,Day,Error,2.4,9.6,,OP109,
+LOG00316,M007,Screw_Driver_Auto,Line 2,2025-02-15,Day,Maintenance,3.4,8.6,,OP114,
+LOG00318,M001,CNC_Lathe_A,Line 1,2025-02-16,,Running,11.8,0.2,,OP107,
+LOG00319,M002,PCB_Assembler_B,Line 2,2025-02-16,Night,Running,7.6,4.4,,OP105,Scheduled PM
+LOG00320,M003,AI_Server_Tester,Test Bay,2025-02-16,Night,Running,11.7,0.3,,OP114,
+LOG00321,M004,Soldering_Robot,Line 1,2025-02-16,Night,Running,10.7,1.3,,OP115,
+LOG00322,M005,HPC_Burn_In_Rack,Test Bay,2025-02-16,Night,Running,6.8,5.2,,OP112,
+LOG00323,M006,conveyor_belt_c,Line 3,2025-02-16,Day,Error,2.3,9.7,E101,OP102,
+LOG00324,M007,Screw_Driver_Auto,Line 2,2025-02-16,Night,Maintenance,0.7,11.3,,OP110,Needs inspection
+LOG00325,M002,PCB_Assembler_B,Line 2,2025-02-17,Day,Running,8.1,3.9,,OP111,
+LOG00326,M003,AI_Server_Tester,Test Bay,2025-02-17,Day,Down,1.7,10.3,E204,OP111,
+LOG00327,M004,Soldering_Robot,Line 1,2025-02-17,Night,Running,8.6,3.4,,OP114,Scheduled PM
+LOG00328,M005,HPC_Burn_In_Rack,Test Bay,,Night,Maintenance,0.3,11.7,,OP100,
+LOG00329,M006,conveyor_belt_c,Line 3,2025-02-17,Day,Running,11.5,0.5,,OP105,
+LOG00330,M007,Screw_Driver_Auto,Line 2,2025-02-17,Day,Error,0.9,11.1,E101,OP113,Needs inspection
+LOG00331,M001,CNC_Lathe_A,Line 1,2025-02-18,Day,Running,8.1,3.9,,OP106,
+LOG00332,M002,PCB_Assembler_B,Line 2,2025-02-18,Day,Running,9.0,3.0,,OP111,
+LOG00333,M003,AI_Server_Tester,Test Bay,2025-02-18,Day,Running,6.8,5.2,,OP112,Sensor fluctuation
+LOG00334,M004,Soldering_Robot,Line 1,2025-02-18,Day,Running,7.4,4.6,,OP109,Sensor fluctuation
+LOG00335,M005,HPC_Burn_In_Rack,Test Bay,2025-02-18,Night,Running,7.2,4.8,,OP105,
+LOG00336,M006,conveyor_belt_c,Line 3,2025-02-18,Night,Running,7.9,4.1,,OP113,
+LOG00337,M007,Screw_Driver_Auto,Line 2,2025-02-18,Day,Running,8.9,3.1,,OP105,
+LOG00339,M001,CNC_Lathe_A,Line 1,2025-02-19,,Error,1.6,10.4,,OP115,
+LOG00340,M004,Soldering_Robot,Line 1,2025-02-19,Day,Down,0.1,11.9,,OP114,Sensor fluctuation
+LOG00341,M005,HPC_Burn_In_Rack,Test Bay,2025-02-19,Day,Error,2.2,9.8,E204,OP111,Sensor fluctuation
+LOG00342,M006,conveyor_belt_c,Line 3,2025-02-19,Night,Running,10.3,1.7,,OP113,
+LOG00343,M007,Screw_Driver_Auto,Line 2,2025-02-19,,Running,7.1,4.9,,OP108,
+LOG00345,M001,CNC_Lathe_A,Line 1,2025-02-20,Night,Maintenance,3.4,8.6,,OP105,Sensor fluctuation
+LOG00346,M003,AI_Server_Tester,Test Bay,2025-02-20,Day,Running,10.6,1.4,,OP105,
+LOG00347,M004,Soldering_Robot,Line 1,2025-02-20,Night,Down,1.2,10.8,E305,OP104,Needs inspection
+LOG00348,M005,HPC_Burn_In_Rack,Test Bay,2025-02-20,Day,Down,3.5,8.5,,OP107,
+LOG00349,M006,conveyor_belt_c,Line 3,2025-02-20,,Running,10.3,1.7,,OP104,Sensor fluctuation
+LOG00350,M007,Screw_Driver_Auto,Line 2,2025-02-20,Night,Running,7.6,4.4,,OP112,Sensor fluctuation
+LOG00352,M001,CNC_Lathe_A,Line 1,2025-02-21,Night,Maintenance,3.4,8.6,,OP106,Needs inspection
+LOG00353,M002,PCB_Assembler_B,Line 2,2025-02-21,Day,Error,1.1,10.9,E305,OP115,
+LOG00354,M003,AI_Server_Tester,Test Bay,2025-02-21,,Running,5.3,6.7,,OP100,
+LOG00355,M004,Soldering_Robot,Line 1,,Night,Running,8.1,3.9,,OP106,Scheduled PM
+LOG00356,M005,HPC_Burn_In_Rack,Test Bay,2025-02-21,Day,Down,0.6,11.4,E305,OP108,
+LOG00357,M006,conveyor_belt_c,Line 3,2025-02-21,Night,Running,5.4,6.6,,OP113,Scheduled PM
+LOG00358,M001,CNC_Lathe_A,Line 1,2025-02-22,,Running,5.9,6.1,,OP100,
+LOG00359,M002,PCB_Assembler_B,Line 2,2025-02-22,Day,Running,11.9,0.1,,OP115,
+LOG00360,M003,AI_Server_Tester,Test Bay,2025-02-22,Day,Running,10.1,1.9,,OP111,
+LOG00361,M005,HPC_Burn_In_Rack,Test Bay,2025-02-22,Night,Running,9.5,2.5,,OP100,Sensor fluctuation
+LOG00362,M006,conveyor_belt_c,Line 3,2025-02-22,Day,Error,1.4,10.6,,OP113,Sensor fluctuation
+LOG00363,M007,Screw_Driver_Auto,Line 2,2025-02-22,Night,Running,5.6,6.4,,OP112,
+LOG00365,M001,CNC_Lathe_A,Line 1,2025-02-23,Day,Down,3.1,8.9,E101,OP106,Sensor fluctuation
+LOG00366,M002,PCB_Assembler_B,Line 2,2025-02-23,Day,Running,10.2,1.8,,OP107,Needs inspection
+LOG00367,M003,AI_Server_Tester,Test Bay,2025-02-23,Day,Running,8.5,3.5,,OP111,
+LOG00368,M005,HPC_Burn_In_Rack,Test Bay,2025-02-23,,Running,7.6,4.4,,OP102,
+LOG00369,M006,conveyor_belt_c,Line 3,,Day,Running,6.8,5.2,,OP112,Sensor fluctuation
+LOG00370,M007,Screw_Driver_Auto,Line 2,2025-02-23,Day,Running,8.0,4.0,,OP108,
+LOG00372,M001,CNC_Lathe_A,Line 1,2025-02-24,Night,Running,7.2,4.8,,OP101,
+LOG00373,M003,AI_Server_Tester,Test Bay,2025-02-24,Day,Error,2.4,9.6,E101,OP103,
+LOG00374,M004,Soldering_Robot,Line 1,2025-02-24,Day,Running,6.1,5.9,,OP105,
+LOG00375,M006,conveyor_belt_c,Line 3,2025-02-24,Day,Down,2.9,9.1,E204,OP110,Needs inspection
+LOG00376,M007,Screw_Driver_Auto,Line 2,2025-02-24,Night,Running,6.8,5.2,,OP115,Needs inspection
+LOG00378,M001,CNC_Lathe_A,Line 1,2025-02-25,Day,Running,6.6,5.4,,OP100,
+LOG00379,M003,AI_Server_Tester,Test Bay,2025-02-25,Day,Running,6.3,5.7,,OP113,
+LOG00380,M004,Soldering_Robot,Line 1,2025-02-25,Night,Running,11.4,0.6,,OP111,
+LOG00381,M005,HPC_Burn_In_Rack,Test Bay,2025-02-25,Day,Running,6.3,5.7,,OP112,
+LOG00382,M006,conveyor_belt_c,Line 3,2025-02-25,,Down,3.1,8.9,E305,OP100,
+LOG00383,M007,Screw_Driver_Auto,Line 2,2025-02-25,,Down,3.0,9.0,,OP106,Scheduled PM
+LOG00385,M001,CNC_Lathe_A,Line 1,,Night,Running,11.7,0.3,,OP109,
+LOG00386,M002,PCB_Assembler_B,Line 2,2025-02-26,Day,Running,7.9,4.1,,OP108,
+LOG00387,M004,Soldering_Robot,Line 1,2025-02-26,Night,Running,9.9,2.1,,OP103,Sensor fluctuation
+LOG00388,M006,conveyor_belt_c,Line 3,2025-02-26,Day,Running,9.1,2.9,,OP107,
+LOG00389,M007,Screw_Driver_Auto,Line 2,2025-02-26,Day,Maintenance,3.7,8.3,,OP110,Needs inspection
+LOG00391,M001,CNC_Lathe_A,Line 1,2025-02-27,Night,Error,1.3,10.7,E204,OP114,
+LOG00392,M002,PCB_Assembler_B,Line 2,2025-02-27,Day,Running,5.6,6.4,,OP101,
+LOG00393,M003,AI_Server_Tester,Test Bay,2025-02-27,Day,Maintenance,0.6,11.4,,OP112,Sensor fluctuation
+LOG00394,M005,HPC_Burn_In_Rack,Test Bay,2025-02-27,,Running,5.2,6.8,,OP107,
+LOG00395,M006,conveyor_belt_c,Line 3,2025-02-27,Night,Running,5.9,6.1,,OP104,
+LOG00396,M007,Screw_Driver_Auto,Line 2,2025-02-27,Night,Maintenance,2.7,9.3,,OP108,
+LOG00397,M002,PCB_Assembler_B,Line 2,2025-02-28,Day,Error,3.2,8.8,E204,OP103,
+LOG00398,M003,AI_Server_Tester,Test Bay,2025-02-28,Night,Running,6.2,5.8,,OP115,
+LOG00399,M004,Soldering_Robot,Line 1,2025-02-28,Day,Running,6.2,5.8,,OP108,
+LOG00400,M005,HPC_Burn_In_Rack,Test Bay,2025-02-28,Night,Running,5.2,6.8,,OP109,Needs inspection
+LOG00401,M006,conveyor_belt_c,Line 3,2025-02-28,Night,Error,0.2,11.8,E305,OP106,Scheduled PM
+LOG00402,M007,Screw_Driver_Auto,Line 2,2025-02-28,Day,Running,9.4,2.6,,OP112,Scheduled PM
+LOG00404,M001,CNC_Lathe_A,Line 1,2025-03-01,Day,Running,11.3,0.7,,OP115,Sensor fluctuation
+LOG00405,M002,PCB_Assembler_B,Line 2,2025-03-01,Night,Running,11.8,0.2,,OP108,Sensor fluctuation
+LOG00406,M003,AI_Server_Tester,Test Bay,2025-03-01,Night,Running,10.3,1.7,,OP111,
+LOG00407,M004,Soldering_Robot,Line 1,2025-03-01,Day,Maintenance,3.2,8.8,,OP111,Sensor fluctuation
+LOG00408,M005,HPC_Burn_In_Rack,Test Bay,2025-03-01,,Running,10.9,1.1,,OP109,
+LOG00409,M006,conveyor_belt_c,Line 3,2025-03-01,Day,Running,5.4,6.6,,OP115,
+LOG00410,M007,Screw_Driver_Auto,Line 2,2025-03-01,Day,Running,10.6,1.4,,OP110,
+LOG00411,M001,CNC_Lathe_A,Line 1,2025-03-02,Day,Running,10.4,1.6,,OP102,
+LOG00412,M002,PCB_Assembler_B,Line 2,2025-03-02,Day,Running,9.1,2.9,,OP104,
+LOG00413,M003,AI_Server_Tester,Test Bay,2025-03-02,Day,Running,10.5,1.5,,OP105,Scheduled PM
+LOG00414,M004,Soldering_Robot,Line 1,2025-03-02,Day,Maintenance,0.9,11.1,,OP112,
+LOG00415,M005,HPC_Burn_In_Rack,Test Bay,2025-03-02,Night,Down,0.5,11.5,E101,OP101,
+LOG00416,M006,conveyor_belt_c,Line 3,2025-03-02,,Running,9.5,2.5,,OP104,
+LOG00417,M007,Screw_Driver_Auto,Line 2,2025-03-02,Night,Running,7.4,4.6,,OP110,Needs inspection
+LOG00418,M001,CNC_Lathe_A,Line 1,2025-03-03,Day,Running,7.5,4.5,,OP101,Needs inspection
+LOG00419,M002,PCB_Assembler_B,Line 2,2025-03-03,,Running,11.8,0.2,,OP112,
+LOG00420,M003,AI_Server_Tester,Test Bay,2025-03-03,Night,Running,10.8,1.2,,OP105,Needs inspection
+LOG00421,M005,HPC_Burn_In_Rack,Test Bay,2025-03-03,Night,Down,0.1,11.9,E305,OP110,
+LOG00422,M006,conveyor_belt_c,Line 3,2025-03-03,Night,Running,10.1,1.9,,OP110,Sensor fluctuation
+LOG00423,M007,Screw_Driver_Auto,Line 2,2025-03-03,Day,Error,2.8,9.2,E101,OP113,
+LOG00424,M001,CNC_Lathe_A,Line 1,2025-03-04,Day,Running,7.9,4.1,,OP109,
+LOG00425,M002,PCB_Assembler_B,Line 2,2025-03-04,,Running,7.8,4.2,,OP104,
+LOG00426,M003,AI_Server_Tester,Test Bay,2025-03-04,,Running,5.6,6.4,,OP106,
+LOG00427,M005,HPC_Burn_In_Rack,Test Bay,2025-03-04,Day,Down,3.9,8.1,,OP112,Needs inspection
+LOG00428,M006,conveyor_belt_c,Line 3,2025-03-04,Night,Down,0.4,11.6,E101,OP111,
+LOG00429,M007,Screw_Driver_Auto,Line 2,2025-03-04,Day,Down,1.8,10.2,E305,OP101,
+LOG00431,M002,PCB_Assembler_B,Line 2,2025-03-05,,Running,11.8,0.2,,OP107,Needs inspection
+LOG00432,M003,AI_Server_Tester,Test Bay,2025-03-05,Day,Running,11.3,0.7,,OP103,Needs inspection
+LOG00433,M004,Soldering_Robot,Line 1,2025-03-05,Day,Running,11.8,0.2,,OP101,Needs inspection
+LOG00434,M006,conveyor_belt_c,Line 3,2025-03-05,Day,Running,12.0,0.0,,OP110,Scheduled PM
+LOG00435,M007,Screw_Driver_Auto,Line 2,2025-03-05,Day,Running,5.6,6.4,,OP108,Sensor fluctuation
+LOG00437,M002,PCB_Assembler_B,Line 2,2025-03-06,Night,Running,11.5,0.5,,OP109,Sensor fluctuation
+LOG00438,M003,AI_Server_Tester,Test Bay,2025-03-06,,Running,6.8,5.2,,OP101,
+LOG00439,M004,Soldering_Robot,Line 1,2025-03-06,Night,Running,9.3,2.7,,OP101,Needs inspection
+LOG00440,M005,HPC_Burn_In_Rack,Test Bay,,,Maintenance,2.8,9.2,,OP108,
+LOG00441,M007,Screw_Driver_Auto,Line 2,2025-03-06,Night,Down,1.2,10.8,,OP107,
+LOG00443,M001,CNC_Lathe_A,Line 1,2025-03-07,Day,Running,10.2,1.8,,OP101,Sensor fluctuation
+LOG00444,M002,PCB_Assembler_B,Line 2,2025-03-07,Day,Running,7.2,4.8,,OP100,
+LOG00445,M003,AI_Server_Tester,Test Bay,2025-03-07,,Running,10.9,1.1,,OP101,
+LOG00446,M004,Soldering_Robot,Line 1,2025-03-07,Night,Down,1.5,10.5,,OP100,
+LOG00447,M005,HPC_Burn_In_Rack,Test Bay,2025-03-07,Day,Error,0.7,11.3,,OP111,
+LOG00448,M006,conveyor_belt_c,Line 3,2025-03-07,Night,Down,3.0,9.0,E204,OP101,
+LOG00449,M007,Screw_Driver_Auto,Line 2,2025-03-07,Night,Running,11.0,1.0,,OP108,Scheduled PM
+LOG00451,M001,CNC_Lathe_A,Line 1,2025-03-08,Day,Running,6.6,5.4,,OP108,Needs inspection
+LOG00452,M002,PCB_Assembler_B,Line 2,2025-03-08,Day,Maintenance,1.8,10.2,,OP112,Sensor fluctuation
+LOG00453,M004,Soldering_Robot,Line 1,2025-03-08,Day,Maintenance,2.2,9.8,,OP109,Scheduled PM
+LOG00454,M007,Screw_Driver_Auto,Line 2,2025-03-08,Day,Maintenance,3.4,8.6,,OP106,
+LOG00456,M003,AI_Server_Tester,Test Bay,2025-03-09,Day,Down,1.0,11.0,E101,OP106,
+LOG00457,M004,Soldering_Robot,Line 1,2025-03-09,,Running,9.8,2.2,,OP111,Sensor fluctuation
+LOG00458,M005,HPC_Burn_In_Rack,Test Bay,2025-03-09,Day,Running,10.9,1.1,,OP109,
+LOG00459,M006,conveyor_belt_c,Line 3,2025-03-09,Day,Down,2.9,9.1,,OP102,
+LOG00460,M007,Screw_Driver_Auto,Line 2,2025-03-09,Day,Down,1.7,10.3,,OP114,
+LOG00462,M001,CNC_Lathe_A,Line 1,2025-03-10,Night,Running,11.1,0.9,,OP110,Needs inspection
+LOG00463,M002,PCB_Assembler_B,Line 2,2025-03-10,,Error,0.6,11.4,,OP110,Scheduled PM
+LOG00464,M003,AI_Server_Tester,Test Bay,,Day,Maintenance,2.5,9.5,,OP106,
+LOG00465,M004,Soldering_Robot,Line 1,2025-03-10,Night,Running,8.4,3.6,,OP104,Sensor fluctuation
+LOG00466,M005,HPC_Burn_In_Rack,Test Bay,2025-03-10,Night,Running,7.8,4.2,,OP100,
+LOG00467,M006,conveyor_belt_c,Line 3,2025-03-10,Night,Maintenance,3.8,8.2,,OP100,Scheduled PM
+LOG00469,M001,CNC_Lathe_A,Line 1,2025-03-11,Day,Down,0.7,11.3,E101,OP114,Scheduled PM
+LOG00470,M002,PCB_Assembler_B,Line 2,2025-03-11,Day,Maintenance,1.7,10.3,,OP110,Needs inspection
+LOG00471,M003,AI_Server_Tester,Test Bay,2025-03-11,Night,Running,6.2,5.8,,OP100,
+LOG00472,M004,Soldering_Robot,Line 1,,Day,Running,6.5,5.5,,OP103,
+LOG00473,M005,HPC_Burn_In_Rack,Test Bay,2025-03-11,Day,Running,7.6,4.4,,OP101,Scheduled PM
+LOG00474,M007,Screw_Driver_Auto,Line 2,2025-03-11,Night,Running,9.8,2.2,,OP103,Sensor fluctuation
+LOG00476,M001,CNC_Lathe_A,Line 1,2025-03-12,Night,Down,2.5,9.5,,OP103,
+LOG00477,M004,Soldering_Robot,Line 1,2025-03-12,Night,Running,10.4,1.6,,OP111,Scheduled PM
+LOG00478,M005,HPC_Burn_In_Rack,Test Bay,2025-03-12,Night,Running,5.3,6.7,,OP115,
+LOG00479,M006,conveyor_belt_c,Line 3,2025-03-12,,Running,9.7,2.3,,OP104,
+LOG00480,M007,Screw_Driver_Auto,Line 2,2025-03-12,Day,Running,10.1,1.9,,OP107,Needs inspection
+LOG00482,M001,CNC_Lathe_A,Line 1,2025-03-13,Day,Maintenance,1.7,10.3,,OP100,
+LOG00483,M002,PCB_Assembler_B,Line 2,2025-03-13,Day,Running,7.3,4.7,,OP102,
+LOG00484,M003,AI_Server_Tester,Test Bay,2025-03-13,,Running,5.8,6.2,,OP108,Needs inspection
+LOG00485,M004,Soldering_Robot,Line 1,2025-03-13,Day,Error,3.2,8.8,,OP105,
+LOG00486,M005,HPC_Burn_In_Rack,Test Bay,2025-03-13,Night,Error,3.2,8.8,,OP111,Sensor fluctuation
+LOG00487,M007,Screw_Driver_Auto,Line 2,2025-03-13,Night,Running,8.4,3.6,,OP114,
+LOG00488,M001,CNC_Lathe_A,Line 1,2025-03-14,Night,Running,9.9,2.1,,OP110,Sensor fluctuation
+LOG00489,M002,PCB_Assembler_B,Line 2,2025-03-14,,Running,8.0,4.0,,OP111,Scheduled PM
+LOG00490,M003,AI_Server_Tester,Test Bay,2025-03-14,Day,Running,6.0,6.0,,OP100,Scheduled PM
+LOG00491,M004,Soldering_Robot,Line 1,2025-03-14,,Error,3.4,8.6,,OP110,
+LOG00492,M005,HPC_Burn_In_Rack,Test Bay,2025-03-14,Night,Down,0.2,11.8,,OP112,
+LOG00493,M007,Screw_Driver_Auto,Line 2,2025-03-14,Night,Error,0.4,11.6,,OP115,Scheduled PM
+LOG00495,M001,CNC_Lathe_A,Line 1,2025-03-15,,Down,3.6,8.4,,OP110,
+LOG00496,M002,PCB_Assembler_B,Line 2,2025-03-15,,Running,10.9,1.1,,OP111,Scheduled PM
+LOG00497,M003,AI_Server_Tester,Test Bay,2025-03-15,Day,Running,10.3,1.7,,OP111,Scheduled PM
+LOG00498,M004,Soldering_Robot,Line 1,2025-03-15,Day,Down,2.2,9.8,,OP105,Needs inspection
+LOG00499,M006,conveyor_belt_c,Line 3,2025-03-15,Night,Running,5.7,6.3,,OP103,Needs inspection
+LOG00500,M007,Screw_Driver_Auto,Line 2,2025-03-15,Night,Running,10.0,2.0,,OP101,Scheduled PM
+LOG00502,M001,CNC_Lathe_A,Line 1,2025-03-16,,Running,8.9,3.1,,OP105,Scheduled PM
+LOG00503,M002,PCB_Assembler_B,Line 2,2025-03-16,Day,Running,5.7,6.3,,OP112,Needs inspection
+LOG00504,M003,AI_Server_Tester,Test Bay,2025-03-16,Day,Running,6.9,5.1,,OP114,
+LOG00505,M005,HPC_Burn_In_Rack,Test Bay,2025-03-16,Night,Down,3.4,8.6,,OP106,
+LOG00506,M006,conveyor_belt_c,Line 3,2025-03-16,Day,Down,2.7,9.3,,OP110,Scheduled PM
+LOG00508,M001,CNC_Lathe_A,Line 1,2025-03-17,Day,Running,7.7,4.3,,OP106,
+LOG00509,M002,PCB_Assembler_B,Line 2,2025-03-17,Day,Running,11.9,0.1,,OP101,Scheduled PM
+LOG00510,M003,AI_Server_Tester,Test Bay,,,Running,10.3,1.7,,OP103,Sensor fluctuation
+LOG00511,M004,Soldering_Robot,Line 1,2025-03-17,Night,Running,10.2,1.8,,OP109,Scheduled PM
+LOG00512,M005,HPC_Burn_In_Rack,Test Bay,2025-03-17,Day,Running,7.7,4.3,,OP101,
+LOG00513,M006,conveyor_belt_c,Line 3,2025-03-17,,Running,9.3,2.7,,OP107,Scheduled PM
+LOG00514,M007,Screw_Driver_Auto,Line 2,2025-03-17,Night,Maintenance,3.0,9.0,,OP106,
+LOG00516,M001,CNC_Lathe_A,Line 1,,,Down,0.5,11.5,E305,OP104,
+LOG00517,M002,PCB_Assembler_B,Line 2,2025-03-18,Day,Maintenance,2.4,9.6,,OP115,Sensor fluctuation
+LOG00518,M003,AI_Server_Tester,Test Bay,2025-03-18,Night,Running,10.5,1.5,,OP105,Sensor fluctuation
+LOG00519,M005,HPC_Burn_In_Rack,Test Bay,2025-03-18,Day,Running,8.8,3.2,,OP107,
+LOG00520,M006,conveyor_belt_c,Line 3,2025-03-18,,Maintenance,1.4,10.6,,OP100,
+LOG00521,M007,Screw_Driver_Auto,Line 2,2025-03-18,Day,Error,1.0,11.0,,OP112,
+LOG00523,M001,CNC_Lathe_A,Line 1,2025-03-19,Night,Running,7.2,4.8,,OP105,Sensor fluctuation
+LOG00524,M002,PCB_Assembler_B,Line 2,2025-03-19,Night,Running,6.5,5.5,,OP113,
+LOG00525,M003,AI_Server_Tester,Test Bay,2025-03-19,Day,Running,9.5,2.5,,OP100,Needs inspection
+LOG00526,M004,Soldering_Robot,Line 1,2025-03-19,Day,Running,5.6,6.4,,OP102,Sensor fluctuation
+LOG00527,M005,HPC_Burn_In_Rack,Test Bay,2025-03-19,Night,Down,1.6,10.4,,OP110,
+LOG00528,M006,conveyor_belt_c,Line 3,2025-03-19,Night,Running,8.7,3.3,,OP101,Scheduled PM
+LOG00529,M007,Screw_Driver_Auto,Line 2,2025-03-19,Day,Maintenance,3.7,8.3,,OP102,
+LOG00531,M001,CNC_Lathe_A,Line 1,2025-03-20,Day,Down,3.8,8.2,,OP100,Sensor fluctuation
+LOG00532,M002,PCB_Assembler_B,Line 2,,Night,Running,5.9,6.1,,OP102,
+LOG00533,M003,AI_Server_Tester,Test Bay,2025-03-20,Day,Maintenance,0.8,11.2,,OP105,
+LOG00534,M004,Soldering_Robot,Line 1,2025-03-20,Day,Down,0.8,11.2,,OP114,Scheduled PM
+LOG00535,M005,HPC_Burn_In_Rack,Test Bay,2025-03-20,,Down,2.7,9.3,E305,OP110,
+LOG00536,M007,Screw_Driver_Auto,Line 2,2025-03-20,Night,Running,7.0,5.0,,OP110,Needs inspection
+LOG00538,M001,CNC_Lathe_A,Line 1,2025-03-21,Night,Maintenance,1.0,11.0,,OP108,
+LOG00539,M003,AI_Server_Tester,Test Bay,2025-03-21,,Error,1.9,10.1,,OP103,
+LOG00540,M004,Soldering_Robot,Line 1,2025-03-21,Day,Running,10.9,1.1,,OP106,
+LOG00541,M005,HPC_Burn_In_Rack,Test Bay,2025-03-21,Day,Running,10.1,1.9,,OP112,Sensor fluctuation
+LOG00542,M006,conveyor_belt_c,Line 3,2025-03-21,,Running,8.9,3.1,,OP104,
+LOG00543,M007,Screw_Driver_Auto,Line 2,2025-03-21,Day,Down,0.5,11.5,E204,OP107,Sensor fluctuation
+LOG00545,M002,PCB_Assembler_B,Line 2,2025-03-22,Day,Running,5.4,6.6,,OP106,Sensor fluctuation
+LOG00546,M003,AI_Server_Tester,Test Bay,2025-03-22,Day,Maintenance,1.6,10.4,,OP101,Scheduled PM
+LOG00547,M004,Soldering_Robot,Line 1,2025-03-22,Day,Down,3.3,8.7,E305,OP112,Scheduled PM
+LOG00548,M005,HPC_Burn_In_Rack,Test Bay,2025-03-22,Night,Running,8.6,3.4,,OP112,
+LOG00549,M006,conveyor_belt_c,Line 3,2025-03-22,Day,Maintenance,1.9,10.1,,OP104,Needs inspection
+LOG00550,M007,Screw_Driver_Auto,Line 2,2025-03-22,Day,Running,8.6,3.4,,OP105,
+LOG00552,M001,CNC_Lathe_A,Line 1,2025-03-23,Night,Error,0.8,11.2,,OP100,
+LOG00553,M003,AI_Server_Tester,Test Bay,2025-03-23,Day,Running,5.9,6.1,,OP101,
+LOG00554,M004,Soldering_Robot,Line 1,2025-03-23,Day,Running,8.6,3.4,,OP109,
+LOG00555,M005,HPC_Burn_In_Rack,Test Bay,2025-03-23,Night,Error,3.5,8.5,,OP104,Sensor fluctuation
+LOG00556,M006,conveyor_belt_c,Line 3,2025-03-23,Day,Running,9.4,2.6,,OP110,Needs inspection
+LOG00557,M007,Screw_Driver_Auto,Line 2,2025-03-23,Night,Running,6.6,5.4,,OP100,
+LOG00559,M001,CNC_Lathe_A,Line 1,2025-03-24,Day,Running,5.7,6.3,,OP113,Sensor fluctuation
+LOG00560,M002,PCB_Assembler_B,Line 2,2025-03-24,,Running,9.9,2.1,,OP112,
+LOG00561,M003,AI_Server_Tester,Test Bay,2025-03-24,Night,Running,8.0,4.0,,OP102,
+LOG00562,M004,Soldering_Robot,Line 1,,Day,Running,6.8,5.2,,OP103,Sensor fluctuation
+LOG00563,M006,conveyor_belt_c,Line 3,2025-03-24,Night,Maintenance,1.6,10.4,,OP108,
+LOG00564,M007,Screw_Driver_Auto,Line 2,2025-03-24,Night,Running,9.0,3.0,,OP106,Needs inspection
+LOG00566,M001,CNC_Lathe_A,Line 1,2025-03-25,Night,Running,11.0,1.0,,OP114,Scheduled PM
+LOG00567,M002,PCB_Assembler_B,Line 2,2025-03-25,Day,Running,6.5,5.5,,OP101,
+LOG00568,M003,AI_Server_Tester,Test Bay,2025-03-25,,Running,10.6,1.4,,OP113,
+LOG00569,M005,HPC_Burn_In_Rack,Test Bay,2025-03-25,Night,Running,9.3,2.7,,OP109,Scheduled PM
+LOG00570,M006,conveyor_belt_c,Line 3,2025-03-25,,Running,11.6,0.4,,OP114,
+LOG00571,M007,Screw_Driver_Auto,Line 2,2025-03-25,Day,Down,0.8,11.2,,OP111,
+LOG00573,M001,CNC_Lathe_A,Line 1,2025-03-26,Night,Running,8.6,3.4,,OP102,Sensor fluctuation
+LOG00574,M002,PCB_Assembler_B,Line 2,2025-03-26,Night,Maintenance,1.4,10.6,,OP106,Needs inspection
+LOG00575,M003,AI_Server_Tester,Test Bay,2025-03-26,Night,Running,6.8,5.2,,OP102,Sensor fluctuation
+LOG00576,M004,Soldering_Robot,Line 1,2025-03-26,Day,Running,10.6,1.4,,OP114,Needs inspection
+LOG00577,M005,HPC_Burn_In_Rack,Test Bay,2025-03-26,,Running,10.3,1.7,,OP114,Sensor fluctuation
+LOG00578,M006,conveyor_belt_c,Line 3,2025-03-26,Night,Error,0.5,11.5,E204,OP107,
+LOG00579,M007,Screw_Driver_Auto,Line 2,,Day,Maintenance,2.1,9.9,,OP107,
+LOG00580,M001,CNC_Lathe_A,Line 1,2025-03-27,,Maintenance,0.3,11.7,,OP110,
+LOG00581,M002,PCB_Assembler_B,Line 2,2025-03-27,Night,Down,0.7,11.3,,OP107,Scheduled PM
+LOG00582,M003,AI_Server_Tester,Test Bay,2025-03-27,Day,Down,0.8,11.2,,OP104,
+LOG00583,M006,conveyor_belt_c,Line 3,2025-03-27,Day,Error,2.5,9.5,E101,OP110,Needs inspection
+LOG00584,M007,Screw_Driver_Auto,Line 2,2025-03-27,Day,Down,2.0,10.0,E305,OP101,Sensor fluctuation
+LOG00586,M001,CNC_Lathe_A,Line 1,,Night,Error,1.3,10.7,E101,OP112,Sensor fluctuation
+LOG00587,M003,AI_Server_Tester,Test Bay,2025-03-28,,Down,0.7,11.3,E305,OP110,
+LOG00588,M004,Soldering_Robot,Line 1,2025-03-28,Day,Running,6.5,5.5,,OP111,Needs inspection
+LOG00589,M005,HPC_Burn_In_Rack,Test Bay,2025-03-28,Night,Running,9.0,3.0,,OP103,Scheduled PM
+LOG00590,M006,conveyor_belt_c,Line 3,2025-03-28,Night,Running,8.9,3.1,,OP104,Scheduled PM
+LOG00592,M001,CNC_Lathe_A,Line 1,2025-03-29,Day,Running,7.8,4.2,,OP106,
+LOG00593,M002,PCB_Assembler_B,Line 2,2025-03-29,Day,Running,8.1,3.9,,OP111,Sensor fluctuation
+LOG00594,M003,AI_Server_Tester,Test Bay,2025-03-29,Night,Down,1.4,10.6,E101,OP105,
+LOG00595,M004,Soldering_Robot,Line 1,2025-03-29,Night,Error,3.1,8.9,,OP109,Needs inspection
+LOG00596,M005,HPC_Burn_In_Rack,Test Bay,2025-03-29,Day,Running,11.1,0.9,,OP113,Scheduled PM
+LOG00597,M006,conveyor_belt_c,Line 3,2025-03-29,Day,Running,10.9,1.1,,OP110,
+LOG00598,M007,Screw_Driver_Auto,Line 2,2025-03-29,,Down,2.8,9.2,E101,OP111,Scheduled PM
+LOG00600,M001,CNC_Lathe_A,Line 1,2025-03-30,Night,Running,6.5,5.5,,OP102,Needs inspection
+LOG00601,M002,PCB_Assembler_B,Line 2,2025-03-30,Night,Running,10.4,1.6,,OP103,
+LOG00602,M003,AI_Server_Tester,Test Bay,2025-03-30,Day,Running,9.6,2.4,,OP107,
+LOG00603,M004,Soldering_Robot,Line 1,2025-03-30,Day,Error,2.5,9.5,,OP100,
+LOG00604,M005,HPC_Burn_In_Rack,Test Bay,2025-03-30,Day,Maintenance,3.5,8.5,,OP114,
+LOG00605,M006,conveyor_belt_c,Line 3,2025-03-30,Night,Running,9.1,2.9,,OP109,
+LOG00606,M007,Screw_Driver_Auto,Line 2,2025-03-30,Day,Running,10.6,1.4,,OP113,
+LOG00608,M001,CNC_Lathe_A,Line 1,2025-03-31,,Running,9.8,2.2,,OP109,
+LOG00609,M002,PCB_Assembler_B,Line 2,2025-03-31,Night,Down,2.4,9.6,E101,OP113,Sensor fluctuation
+LOG00610,M003,AI_Server_Tester,Test Bay,2025-03-31,Night,Running,6.1,5.9,,OP112,
+LOG00611,M004,Soldering_Robot,Line 1,2025-03-31,Day,Running,9.4,2.6,,OP109,Scheduled PM
+LOG00612,M005,HPC_Burn_In_Rack,Test Bay,2025-03-31,Day,Down,1.7,10.3,E204,OP103,Scheduled PM
+LOG00613,M006,conveyor_belt_c,Line 3,2025-03-31,Day,Error,1.1,10.9,,OP104,
+LOG00614,M007,Screw_Driver_Auto,Line 2,2025-03-31,Day,Running,6.3,5.7,,OP104,Scheduled PM

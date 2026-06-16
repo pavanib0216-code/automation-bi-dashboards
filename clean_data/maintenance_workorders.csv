@@ -1,0 +1,91 @@
+WO_ID,MACHINE_ID,MACHINE_NAME,WO_TYPE,PRIORITY,REPORTED_DATE,SCHEDULED_DATE,COMPLETED_DATE,TECHNICIAN_ID,PARTS_USED,LABOR_HOURS,STATUS,ROOT_CAUSE,COST_USD
+WO0001,M002,PCB_Assembler_B,Preventive,Medium,2025-01-01,2025-01-01,2025-01-04,TECH03,,12.0,Completed,Loose connector,1201.95
+WO0002,M006,Conveyor_Belt_C,Corrective,High,2025-01-02,2025-01-05,2025-01-10,TECH05,Belt_V2,2.9,Completed,Wear and tear,1530.23
+WO0003,M002,PCB_Assembler_B,Inspection,Critical,2025-01-03,2025-01-04,,TECH05,Bearing_6200,8.3,In Progress,Scheduled PM,2332.05
+WO0004,M003,AI_Server_Tester,Preventive,Medium,2025-01-04,2025-01-07,2025-01-08,TECH07,Bearing_6200,1.4,Completed,Sensor failure,2050.57
+WO0005,M004,Soldering_Robot,Emergency,Critical,2025-01-05,2025-01-07,2025-01-10,TECH03,Belt_V2,13.0,Completed,Overheating,711.3
+WO0006,M001,CNC_Lathe_A,Preventive,High,2025-01-06,2025-01-08,2025-01-10,TECH04,Fuse_5A,3.0,Completed,,569.18
+WO0007,M001,CNC_Lathe_A,Corrective,High,2025-01-07,2025-01-08,2025-01-13,TECH04,Fuse_5A,1.8,Completed,Wear and tear,1431.16
+WO0008,M007,Screw_Driver_Auto,Emergency,Low,2025-01-08,2025-01-08,,TECH01,Fuse_5A,12.2,Open,Overheating,820.46
+WO0009,M004,Soldering_Robot,Preventive,High,2025-01-09,2025-01-11,2025-01-16,TECH06,,14.4,Completed,Software bug,108.03
+WO0010,M007,Screw_Driver_Auto,Emergency,Low,2025-01-10,2025-01-13,2025-01-13,TECH03,Sensor_XR,11.1,Completed,,1583.58
+WO0011,M006,Conveyor_Belt_C,Corrective,Medium,2025-01-11,2025-01-12,2025-01-17,TECH03,Bearing_6200,8.5,Completed,Unknown,1146.33
+WO0012,M002,PCB_Assembler_B,Corrective,High,2025-01-12,2025-01-14,2025-01-17,TECH07,Sensor_XR,3.7,Completed,Sensor failure,2397.14
+WO0013,M005,HPC_Burn_In_Rack,Preventive,Medium,2025-01-13,2025-01-16,,TECH05,Bearing_6200,13.9,Open,Sensor failure,1272.34
+WO0014,M004,Soldering_Robot,Corrective,High,2025-01-14,2025-01-15,2025-01-16,TECH05,Bearing_6200,6.1,Completed,,489.01
+WO0015,M007,Screw_Driver_Auto,Emergency,Critical,2025-01-15,2025-01-17,2025-01-19,TECH03,Belt_V2,15.6,Completed,Unknown,2154.56
+WO0016,M004,Soldering_Robot,Emergency,Medium,2025-01-16,2025-01-17,2025-01-21,TECH06,Fuse_5A,1.8,Completed,Operator error,693.93
+WO0017,M006,Conveyor_Belt_C,Preventive,Medium,2025-01-17,2025-01-17,2025-01-18,TECH01,Sensor_XR,13.7,Completed,Software bug,1446.83
+WO0018,M007,Screw_Driver_Auto,Preventive,High,2025-01-18,2025-01-19,2025-01-22,TECH06,,7.8,Completed,Operator error,317.34
+WO0019,M002,PCB_Assembler_B,Preventive,Critical,2025-01-19,2025-01-19,2025-01-22,TECH04,,5.6,Completed,Operator error,570.96
+WO0020,M006,Conveyor_Belt_C,Emergency,Medium,2025-01-20,2025-01-20,2025-01-20,TECH03,,2.8,Completed,Wear and tear,2470.14
+WO0021,M007,Screw_Driver_Auto,Emergency,Critical,2025-01-21,2025-01-21,2025-01-23,TECH08,Sensor_XR,1.3,Completed,Scheduled PM,711.13
+WO0022,M006,Conveyor_Belt_C,Corrective,Critical,2025-01-22,2025-01-22,,TECH02,Fuse_5A,14.0,In Progress,Scheduled PM,1335.71
+WO0023,M006,Conveyor_Belt_C,Corrective,Critical,2025-01-23,2025-01-24,2025-01-24,TECH06,Fuse_5A,3.1,Completed,Scheduled PM,1229.98
+WO0024,M005,HPC_Burn_In_Rack,Preventive,Low,2025-01-24,2025-01-25,2025-01-28,TECH07,Belt_V2,9.2,Completed,Overheating,240.63
+WO0025,M006,Conveyor_Belt_C,Inspection,Low,2025-01-25,2025-01-26,2025-01-31,TECH01,Sensor_XR,14.4,Completed,Operator error,2167.54
+WO0026,M001,CNC_Lathe_A,Preventive,High,2025-01-26,2025-01-29,2025-02-03,TECH08,Sensor_XR,10.3,Completed,Sensor failure,139.39
+WO0027,M006,Conveyor_Belt_C,Corrective,Medium,2025-01-27,2025-01-30,2025-01-31,TECH07,Sensor_XR,5.9,Completed,Wear and tear,957.13
+WO0028,M003,AI_Server_Tester,Preventive,High,2025-01-28,2025-01-30,2025-02-03,TECH08,Cable_RJ45,16.0,Completed,Unknown,912.92
+WO0029,M005,HPC_Burn_In_Rack,Emergency,Critical,2025-01-29,2025-01-31,,TECH07,Fuse_5A,3.2,Open,Scheduled PM,984.83
+WO0030,M007,Screw_Driver_Auto,Preventive,Medium,2025-01-30,2025-02-02,2025-02-07,TECH02,Belt_V2,13.0,Completed,,1641.58
+WO0031,M005,HPC_Burn_In_Rack,Emergency,Medium,2025-01-31,2025-01-31,2025-02-04,TECH02,Cable_RJ45,7.4,Completed,Wear and tear,1685.89
+WO0032,M007,Screw_Driver_Auto,Emergency,Medium,2025-02-01,2025-02-02,2025-02-05,TECH07,Belt_V2,3.5,Completed,Sensor failure,909.0
+WO0033,M007,Screw_Driver_Auto,Emergency,Critical,2025-02-02,2025-02-05,2025-02-10,TECH01,Fuse_5A,12.6,Completed,Loose connector,2205.04
+WO0034,M003,AI_Server_Tester,Corrective,Critical,2025-02-03,2025-02-06,2025-02-06,TECH01,Belt_V2,0.9,Completed,Unknown,870.97
+WO0035,M005,HPC_Burn_In_Rack,Emergency,Medium,2025-02-04,2025-02-05,2025-02-08,TECH07,Belt_V2,12.9,Completed,Software bug,2351.51
+WO0036,M004,Soldering_Robot,Preventive,Medium,2025-02-05,2025-02-06,2025-02-08,TECH03,,4.1,Completed,Software bug,1285.43
+WO0037,M006,Conveyor_Belt_C,Inspection,Low,2025-02-06,2025-02-09,2025-02-14,TECH03,Fuse_5A,3.7,Completed,,1121.68
+WO0038,M006,Conveyor_Belt_C,Inspection,Medium,2025-02-07,2025-02-08,,TECH07,Belt_V2,12.0,Open,,1161.58
+WO0039,M006,Conveyor_Belt_C,Corrective,Low,2025-02-08,2025-02-09,2025-02-10,TECH04,Bearing_6200,13.5,Completed,Scheduled PM,1937.46
+WO0040,M006,Conveyor_Belt_C,Preventive,High,2025-02-09,2025-02-11,,TECH02,Belt_V2,7.6,Open,Sensor failure,397.5
+WO0041,M003,AI_Server_Tester,Corrective,Medium,2025-02-10,2025-02-10,,TECH07,Belt_V2,8.1,In Progress,,230.26
+WO0042,M006,Conveyor_Belt_C,Preventive,Low,2025-02-11,2025-02-12,2025-02-15,TECH08,Sensor_XR,3.3,Completed,,487.76
+WO0043,M005,HPC_Burn_In_Rack,Preventive,Low,2025-02-12,2025-02-12,,TECH08,Bearing_6200,9.8,In Progress,,1328.28
+WO0044,M003,AI_Server_Tester,Preventive,High,2025-02-13,2025-02-14,2025-02-18,TECH03,Sensor_XR,13.9,Completed,,581.55
+WO0045,M003,AI_Server_Tester,Corrective,Low,2025-02-14,2025-02-15,,TECH05,,3.6,Open,,1784.8
+WO0046,M006,Conveyor_Belt_C,Corrective,Critical,2025-02-15,2025-02-18,2025-02-21,TECH07,Sensor_XR,4.4,Completed,Loose connector,2406.58
+WO0047,M001,CNC_Lathe_A,Inspection,Critical,2025-02-16,2025-02-18,,TECH07,,7.1,Open,Unknown,1576.13
+WO0048,M005,HPC_Burn_In_Rack,Emergency,Low,2025-02-17,2025-02-20,,TECH02,,3.1,In Progress,,1302.82
+WO0049,M005,HPC_Burn_In_Rack,Emergency,Medium,2025-02-18,2025-02-20,2025-02-25,TECH06,,1.0,Completed,Unknown,1102.0
+WO0050,M002,PCB_Assembler_B,Corrective,Low,2025-02-19,2025-02-20,,TECH03,Fuse_5A,2.4,In Progress,Wear and tear,1806.17
+WO0051,M002,PCB_Assembler_B,Emergency,High,2025-02-20,2025-02-22,2025-02-26,TECH07,Fuse_5A,9.8,Completed,Sensor failure,1424.35
+WO0052,M006,Conveyor_Belt_C,Inspection,Critical,2025-02-21,2025-02-21,2025-02-26,TECH07,Fuse_5A,13.1,Completed,Wear and tear,2016.68
+WO0053,M004,Soldering_Robot,Preventive,Critical,2025-02-22,2025-02-24,2025-02-24,TECH03,Bearing_6200,5.6,Completed,Wear and tear,748.34
+WO0054,M006,Conveyor_Belt_C,Inspection,Medium,2025-02-23,2025-02-23,2025-02-25,TECH07,Belt_V2,14.4,Completed,Wear and tear,876.61
+WO0055,M001,CNC_Lathe_A,Preventive,Low,2025-02-24,2025-02-27,,TECH05,Fuse_5A,12.2,In Progress,Unknown,1259.86
+WO0056,M001,CNC_Lathe_A,Emergency,Critical,2025-02-25,2025-02-27,2025-03-02,TECH02,Fuse_5A,15.0,Completed,,598.84
+WO0057,M007,Screw_Driver_Auto,Preventive,Critical,2025-02-26,2025-02-27,,TECH04,Sensor_XR,1.9,In Progress,Unknown,2049.56
+WO0058,M005,HPC_Burn_In_Rack,Preventive,High,2025-02-27,2025-02-27,2025-02-27,TECH01,Fuse_5A,1.7,Completed,Scheduled PM,711.28
+WO0059,M002,PCB_Assembler_B,Corrective,Medium,2025-02-28,2025-03-03,,TECH07,Cable_RJ45,7.4,In Progress,,1342.59
+WO0060,M005,HPC_Burn_In_Rack,Emergency,Critical,2025-03-01,2025-03-04,2025-03-06,TECH04,Belt_V2,4.6,Completed,Sensor failure,914.87
+WO0061,M007,Screw_Driver_Auto,Corrective,Critical,2025-03-02,2025-03-03,2025-03-03,TECH01,Sensor_XR,0.7,Completed,Scheduled PM,510.4
+WO0062,M001,CNC_Lathe_A,Corrective,Medium,2025-03-03,2025-03-04,2025-03-08,TECH06,Fuse_5A,11.5,Completed,Sensor failure,2289.61
+WO0063,M002,PCB_Assembler_B,Corrective,Medium,2025-03-04,2025-03-07,2025-03-11,TECH04,,3.4,Completed,Software bug,1731.35
+WO0064,M007,Screw_Driver_Auto,Inspection,High,2025-03-05,2025-03-05,,TECH04,Belt_V2,14.4,Open,Wear and tear,1216.79
+WO0065,M005,HPC_Burn_In_Rack,Emergency,High,2025-03-06,2025-03-08,2025-03-12,TECH06,,3.8,Completed,Scheduled PM,1294.42
+WO0066,M001,CNC_Lathe_A,Emergency,Critical,2025-03-07,2025-03-09,2025-03-09,TECH07,Sensor_XR,5.1,Completed,Loose connector,1347.43
+WO0067,M004,Soldering_Robot,Inspection,Medium,2025-03-08,2025-03-11,,TECH02,Sensor_XR,2.3,Open,Loose connector,634.98
+WO0068,M005,HPC_Burn_In_Rack,Preventive,Critical,2025-03-09,2025-03-11,2025-03-15,TECH07,,2.1,Completed,Loose connector,1263.17
+WO0069,M002,PCB_Assembler_B,Corrective,Medium,2025-03-10,2025-03-12,2025-03-17,TECH05,Cable_RJ45,0.5,Completed,Operator error,1860.77
+WO0070,M007,Screw_Driver_Auto,Preventive,Medium,2025-03-11,2025-03-12,,TECH03,Fuse_5A,14.4,Open,,81.2
+WO0071,M004,Soldering_Robot,Emergency,High,2025-03-12,2025-03-14,,TECH03,Cable_RJ45,12.3,In Progress,,912.75
+WO0072,M004,Soldering_Robot,Inspection,Critical,2025-03-13,2025-03-13,2025-03-14,TECH02,Belt_V2,13.2,Completed,Loose connector,2096.63
+WO0073,M005,HPC_Burn_In_Rack,Inspection,High,2025-03-14,2025-03-15,2025-03-15,TECH05,Cable_RJ45,5.7,Completed,Unknown,2474.99
+WO0074,M003,AI_Server_Tester,Preventive,High,2025-03-15,2025-03-18,2025-03-21,TECH06,Fuse_5A,11.5,Completed,Operator error,326.26
+WO0075,M006,Conveyor_Belt_C,Inspection,Medium,2025-03-16,2025-03-16,,TECH03,Fuse_5A,8.2,In Progress,Scheduled PM,930.58
+WO0076,M006,Conveyor_Belt_C,Preventive,High,2025-03-17,2025-03-18,2025-03-21,TECH05,Cable_RJ45,11.0,Completed,Operator error,2468.96
+WO0077,M005,HPC_Burn_In_Rack,Corrective,Low,2025-03-18,2025-03-20,2025-03-22,TECH07,Bearing_6200,7.0,Completed,Loose connector,516.9
+WO0078,M005,HPC_Burn_In_Rack,Inspection,Critical,2025-03-19,2025-03-21,2025-03-21,TECH08,Bearing_6200,15.5,Completed,Loose connector,319.97
+WO0079,M001,CNC_Lathe_A,Emergency,Medium,2025-03-20,2025-03-21,2025-03-22,TECH05,Bearing_6200,9.2,Completed,Operator error,756.24
+WO0080,M007,Screw_Driver_Auto,Corrective,Low,2025-03-21,2025-03-21,2025-03-22,TECH02,Belt_V2,8.1,Completed,,913.03
+WO0081,M007,Screw_Driver_Auto,Preventive,Low,2025-03-22,2025-03-22,2025-03-24,TECH03,Belt_V2,11.6,Completed,,1845.98
+WO0082,M004,Soldering_Robot,Inspection,Critical,2025-03-23,2025-03-23,2025-03-23,TECH06,Sensor_XR,13.1,Completed,Scheduled PM,1027.83
+WO0083,M001,CNC_Lathe_A,Corrective,Medium,2025-03-24,2025-03-26,2025-03-27,TECH07,Cable_RJ45,14.1,Completed,Software bug,1724.14
+WO0084,M002,PCB_Assembler_B,Corrective,Low,2025-03-25,2025-03-26,2025-03-27,TECH05,Belt_V2,5.1,Completed,Operator error,1387.29
+WO0085,M004,Soldering_Robot,Emergency,Low,2025-03-26,2025-03-26,,TECH06,,6.0,In Progress,Scheduled PM,1180.15
+WO0086,M005,HPC_Burn_In_Rack,Preventive,Medium,2025-03-27,2025-03-30,,TECH05,Sensor_XR,9.5,Open,Loose connector,181.16
+WO0087,M007,Screw_Driver_Auto,Emergency,Critical,2025-03-28,2025-03-29,2025-03-29,TECH08,Belt_V2,1.8,Completed,Sensor failure,867.03
+WO0088,M001,CNC_Lathe_A,Corrective,High,2025-03-29,2025-04-01,2025-04-01,TECH01,Cable_RJ45,3.7,Completed,,1864.04
+WO0089,M004,Soldering_Robot,Corrective,Medium,2025-03-30,2025-03-31,2025-04-05,TECH05,Cable_RJ45,5.3,Completed,Wear and tear,2023.76
+WO0090,M005,HPC_Burn_In_Rack,Preventive,Medium,2025-03-31,2025-04-01,,TECH02,Bearing_6200,2.0,Open,Operator error,110.41
